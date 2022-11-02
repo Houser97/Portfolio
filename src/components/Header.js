@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import '../styles/Header.css'
-import {HiMenuAlt4} from 'react-icons/hi'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
@@ -29,6 +28,17 @@ const Header = () => {
                   <path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
               </svg>
             </div>
+
+            <nav className={`${toggle ? 'show-nav':''}`}>
+               <a className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Home')}>Home</a>
+                <a className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('About')}>About me</a>
+                <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Skills')}>Skills</a>
+                <a className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Projects')}>Projects</a>
+            </nav>
         </div>
     </header>
   )
