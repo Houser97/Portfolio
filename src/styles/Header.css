@@ -3,6 +3,8 @@
 header{
     width: 100%;
     display: flex;
+    background: transparent;
+    position: fixed;
 }
 
 .header-subcontainer{
@@ -21,6 +23,8 @@ header{
 .btns-header{
     font-family: 'Noto Serif Devanagari', serif;
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .btns-header .Home-btn{
