@@ -3,7 +3,11 @@ import '../styles/Home.css'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='Home'>
+        <div className='home-subcontainer'>
+
+        </div>
+    </div>
   )
 }
 
