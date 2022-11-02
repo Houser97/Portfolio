@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@800&display=swap');
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.header-subcontainer{
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo-header{
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 50px;
+}
+
+.btns-header{
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 20px;
+}
+
+.btns-header .Home-btn{
+    margin-right: 40px;
+}
