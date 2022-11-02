@@ -16,6 +16,7 @@ header{
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: relative;
 }
 
 .app_header-logo{
@@ -30,7 +31,7 @@ header{
     align-items: center;
 }
 
-.app__header-btns .btn{
+.app__header-subcontainer .btn{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
@@ -38,18 +39,18 @@ header{
     justify-content: center;
 }
 
-.app__header-btns .btn:hover{
+.app__header-subcontainer .btn:hover{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.7);
 }
 
 
-.app__header-btns .btn.selected-link{
+.app__header-subcontainer .btn.selected-link{
     color: white;
 }
 
 /* Efecto de línea inferior */
-.app__header-btns .btn::before{
+.app__header-subcontainer .btn::before{
     content: '';
     position: absolute;
     bottom: 0px;
@@ -59,8 +60,8 @@ header{
     transition: width 320ms ease-in-out;
 }
 
-.app__header-btns .btn:hover::before,
-.app__header-btns .btn.selected-link::before{
+.app__header-subcontainer .btn:hover::before,
+.app__header-subcontainer .btn.selected-link::before{
     width: 100%;
 }
 
@@ -97,6 +98,31 @@ header{
 .hide-svg{
     opacity: 0;
 }
+
+/*Nav section*/
+nav{
+    font-family: 'Noto Serif Devanagari', serif;
+    position: absolute;
+    font-size: 1.1rem;
+    display: flex; flex-flow: column;
+    flex: 1;
+    align-items: flex-start; justify-content: space-around;
+    top: 100%; left: 100%;
+    height: calc(100vh - 69.975px - 36.4px);
+    width: 210px;
+    right: 0px;
+    box-sizing: border-box;
+    padding: 60px 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    transition: transform 300ms ease-in-out;
+}
+
+.show-nav {
+    transform: translateX(-100%);
+}
+
+/*----------------------*/
 
 @media (max-width: 920px) {
     .app__header-subcontainer{
