@@ -4,14 +4,21 @@ import {HiMenuAlt4} from 'react-icons/hi'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
+  const [activeLink, setActiveLink] = useState('Home')
 
   return (
     <header>
         <div className='app__header-subcontainer'>
             <div className='app_header-logo'>Logo</div>
             <div className='app__header-btns'>
-                <a className='Home-btn btn'>Home</a>
-                <a className='Projects-btn btn'>Projects</a>
+                <a className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Home')}>Home</a>
+                <a className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('About')}>About me</a>
+                <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Skills')}>Skills</a>
+                <a className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
+                onClick={() => setActiveLink('Projects')}>Projects</a>
             </div>
 
             <div className='app_header-btn-toggle' onClick={() => setToggle(prev => !prev)}>
