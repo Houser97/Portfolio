@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,600&display=swap');
+
+.app_presentation{
+    display: flex; 
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 5.8rem;
+    width: 700px;
+    color: white;
+    font-family: 'Gelasio', serif;
+    position: relative;
+    background-color: black;
+}
+
+.hi-card,
+.name-card,
+.lastname-card{
+    opacity: 0;
+    width: 100%;
+}
+
+.hi-card{
+    display: flex;
+    transition: transform 800ms ease-in-out 0ms, opacity 350ms ease-in-out 0ms;
+}
+
+.name-card{
+    display: flex;
+    justify-content: center;
+    transition: transform 800ms ease-in-out 800ms, opacity 350ms ease-in-out 900ms;
+}
+
+.lastname-card{
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 800ms ease-in-out 800ms, opacity 350ms ease-in-out 1800ms;
+}
+
+.animation-hi{
+    transform: translateY(-20%);
+    opacity: 1;
+}
+
+.animation-name{
+    transform: translateY(-10%);
+    opacity: 1;
+}
+
+.animation-lname{
+    transform: translateY(0%);
+    opacity: 1;
+}
