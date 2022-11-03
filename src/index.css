@@ -1,3 +1,15 @@
+:root{
+  --small_diameter: 220px;
+  --medium_diameter: 240px;
+  --large_diameter: 270px;
+  --constant-x: 40px;
+  --constant-y: 60px;
+  --offset-y: 80px;
+  --border-width: 22px;
+  --border-color: #eac100;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
