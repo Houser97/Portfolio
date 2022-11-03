@@ -6,12 +6,10 @@
     justify-content: center;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 5.8rem;
-    width: 700px;
+    font-size: 5.3rem;
+    width: 800px;
     color: white;
     font-family: 'Gelasio', serif;
-    position: relative;
-    background-color: black;
 }
 
 .hi-card,
@@ -51,4 +49,60 @@
 .animation-lname{
     transform: translateY(0%);
     opacity: 1;
+}
+
+.circle{
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    border: 2px var(--border-color) dotted;
+    display: none;
+}
+
+.small-circle-bottom{
+    bottom: 100px;
+    left: 100px;
+    height: var(--small_diameter);
+    width: var(--small_diameter);
+
+}
+
+.medium-circle-bottom{
+    bottom: -50px;
+    left: 100px;
+    height: var(--medium_diameter);
+    width: var(--medium_diameter);
+
+}
+
+.large-circle-bottom{
+    bottom: -30px;
+    left: -50px;
+    height: var(--large_diameter);
+    width: var(--large_diameter);
+
+}
+
+.small-circle-top{
+    top: 120px;
+    right: 120px;
+    height: var(--small_diameter);
+    width: var(--small_diameter);
+
+}
+
+.medium-circle-top{
+    top: 0px;
+    right: 150px;
+    height: var(--medium_diameter);
+    width: var(--medium_diameter);
+
+}
+
+.large-circle-top{
+    top: 20px;
+    right: -30px;
+    height: var(--large_diameter);
+    width: var(--large_diameter);
+
 }
