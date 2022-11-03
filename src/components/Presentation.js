@@ -10,6 +10,9 @@ export const Presentation = () => {
     
   return (
     <div className='app_presentation'>
+        <div className='circle small-circle-top'></div>
+        <div className='circle medium-circle-top'></div>
+        <div className='circle large-circle-top'></div>
         <div className={`app_presentation-div hi-card ${mounted ? 'animation-hi' : ''}`}>
             Hi!
         </div>
@@ -19,6 +22,9 @@ export const Presentation = () => {
         <div className={`app_presentation-div lastname-card ${mounted ? 'animation-lname' : ''}`}>
             Rivera
         </div>
+        <div className='circle small-circle-bottom'></div>
+        <div className='circle medium-circle-bottom'></div>
+        <div className='circle large-circle-bottom'></div>
     </div>
   )
 }
