@@ -16,6 +16,7 @@
     align-items: center;
     width: 100%;
     padding: 0px 80px;
+    padding-bottom: 30px;
 }
 
 .about-title{
@@ -24,4 +25,8 @@
     width: 50%;
     text-align: center;
     font-size: 50px;
+}
+
+.about-text{
+    font-size: 20px;
 }
