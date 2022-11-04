@@ -26,9 +26,9 @@ const Header = () => {
         <div className={`app__header-subcontainer ${isAtTop ? '':'not-at-top'}`}>
             <div className='app_header-logo'>Logo</div>
             <div className='app__header-btns'>
-                <a className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
+                <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
-                <a className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
+                <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('About')}>About me</a>
                 <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Skills')}>Skills</a>
