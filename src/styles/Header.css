@@ -20,6 +20,7 @@ header{
     align-items: center;
     color: white;
     position: relative;
+    transition: all 350ms ease-in-out;
 }
 
 .app_header-logo{
@@ -107,6 +108,11 @@ header{
 
 .hide-svg{
     opacity: 0;
+}
+
+.not-at-top{
+    padding: 45px 40px;
+    background-color: black;
 }
 
 /*Nav section*/
