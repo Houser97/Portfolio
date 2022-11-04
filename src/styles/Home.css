@@ -1,7 +1,7 @@
 .Home{
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    background-color: var(--home-background);
     display: flex;
     overflow: hidden;
     position: relative;
@@ -36,7 +36,7 @@
     position: absolute;
     bottom: calc(var(--border-width)*(-1));
     left: 0px;
-    border-top: var(--border-width) black solid;
+    border-top: var(--border-width) var(--home-background) solid;
     border-right: var(--border-width) var(--border-color) solid;
 }
 
@@ -45,7 +45,7 @@
     position: absolute;
     top: 0px;
     right: calc(var(--border-width)*(-1));
-    border-top: var(--border-width) black solid;
+    border-top: var(--border-width) var(--home-background) solid;
     border-right: var(--border-width) var(--border-color) solid;
 }
 
@@ -64,7 +64,7 @@
     bottom: 0px;
     left: calc(var(--border-width)*(-1));
     border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) black solid;
+    border-right: var(--border-width) var(--home-background) solid;
 }
 
 .border-top::after{
@@ -73,5 +73,5 @@
     top: calc(var(--border-width)*(-1));
     right: 0px;
     border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) black solid;
+    border-right: var(--border-width) var(--home-background) solid;
 }
