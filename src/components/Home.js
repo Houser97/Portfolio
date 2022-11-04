@@ -4,7 +4,7 @@ import { Presentation } from './Presentation'
 
 function Home() {
   return (
-    <div className='Home'>
+    <div className='Home' id='home'>
         <div className='home-subcontainer'>
           <Presentation />
         </div>
