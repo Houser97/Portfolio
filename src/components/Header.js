@@ -1,13 +1,29 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/Header.css'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
   const [activeLink, setActiveLink] = useState('Home')
+  const [isAtTop, setIsAtTop] = useState(false)
+
+  useEffect(() => {
+    if(document.documentElement.scrollTop !== 0){
+      setIsAtTop(false)
+    } else {
+      setIsAtTop(true)
+    }
+    window.addEventListener('scroll', () => {
+      if(document.documentElement.scrollTop !== 0){
+        setIsAtTop(false)
+      } else {
+        setIsAtTop(true)
+      }
+    })
+  }, [])
 
   return (
     <header>
-        <div className='app__header-subcontainer'>
+        <div className={`app__header-subcontainer ${isAtTop ? '':'not-at-top'}`}>
             <div className='app_header-logo'>Logo</div>
             <div className='app__header-btns'>
                 <a className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
