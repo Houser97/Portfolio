@@ -11,6 +11,10 @@ header{
     z-index: 1;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .app__header-subcontainer{
     display: flex;
     width: 100%;
