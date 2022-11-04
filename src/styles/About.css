@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,600&display=swap');
+
+.app__about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    font-family: 'Gelasio', serif;
+}
+
+.app_about-subcontainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 80px;
+}
+
+.about-title{
+    border-bottom: 1px white solid;
+    font-family: 'Gelasio', serif;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+}
