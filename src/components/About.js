@@ -5,7 +5,8 @@ import TechCard from './TechCard'
 
 export const About = () => {
   return (
-    <div className='app__about' id = 'about'>
+    <div className='app__about'>
+        <span className='about-anchor-helper' id = 'about'></span>
         <div className='app_about-subcontainer'>
             <h1 className='about-title'>About</h1>
             <div className='personal-data-container'>
