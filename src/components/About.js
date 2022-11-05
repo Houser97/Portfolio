@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/About.css'
+import { icons } from '../constants'
+import TechCard from './TechCard'
 
 export const About = () => {
   return (
@@ -14,7 +16,13 @@ export const About = () => {
                   ingenuity and creativity can bring.
               </div>
               <div className='technologies-container'>
-
+                {
+                  icons.map((object, index) => {
+                    return(
+                      <TechCard key={`tech-${index}`} {...object} />
+                    )
+                  })
+                }
               </div>
             </div>
         </div>
