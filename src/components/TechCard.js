@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/TechCard.css'
 
-const TechCard = ({img, text}) => {
+const TechCard = ({classIcon, text}) => {
   return (
     <div className='app__TechCard'>
-        <img className='app__TechCard-img'>{img}</img>
+        <i className={classIcon}></i>
         <div className='app__TechCard-text'>{text}</div>
     </div>
   )
