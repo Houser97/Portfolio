@@ -2,7 +2,11 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <div className='app__skills'>
+        <div className='app__skills-subcontainer'>
+            
+        </div>
+    </div>
   )
 }
 
