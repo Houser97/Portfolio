@@ -8,6 +8,12 @@
     color: white;
     width: 100%;
     font-family: 'Gelasio', serif;
+    position: relative;
+}
+
+.about-anchor-helper{
+    position: absolute;
+    top: calc(var(--offset-y)*-1);
 }
 
 .app_about-subcontainer{
@@ -17,7 +23,6 @@
     width: 100%;
     padding: 20px 80px;
     padding-bottom: 60px;
-
 }
 
 .about-title{
