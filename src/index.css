@@ -11,9 +11,10 @@
   --border-width-medium: 16px;
   --border-width-small: 13px;
 
+  --home-color: white;
   /*--home-background: rgb(28, 26, 26);*/
-  --home-background: #00204A;
-  --about-background: #005792;
+  --home-background: #222831;
+  --about-background: #222831;
 }
 
 html{
@@ -48,8 +49,7 @@ code {
     }
 }
 
-
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   html{
     font-size: 12px;
   }
@@ -57,18 +57,12 @@ code {
 
 @media (max-width: 520px) {
   html{
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   html{
-    font-size: 6px;
-  }
-}
-
-@media (max-width: 340px) {
-  html{
-    font-size: 4px;
+    font-size: 7px;
   }
 }
