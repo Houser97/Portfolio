@@ -11,6 +11,11 @@
     position: relative;
 }
 
+.app__about h1{
+    padding: 0px;
+    margin-top: 0px;
+}
+
 .about-anchor-helper{
     position: absolute;
     top: calc(var(--offset-y)*-1);
@@ -21,7 +26,7 @@
     flex-flow: column;
     align-items: center;
     width: 100%;
-    padding: 20px 80px;
+    padding: 40px 80px;
     padding-bottom: 60px;
 }
 
