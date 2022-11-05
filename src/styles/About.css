@@ -15,8 +15,9 @@
     flex-flow: column;
     align-items: center;
     width: 100%;
-    padding: 0px 80px;
-    padding-bottom: 30px;
+    padding: 20px 80px;
+    padding-bottom: 60px;
+
 }
 
 .about-title{
@@ -29,4 +30,9 @@
 
 .about-text{
     font-size: 20px;
+}
+
+.personal-data-container{
+    display: flex;
+    flex-flow: row;
 }
