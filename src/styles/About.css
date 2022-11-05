@@ -43,4 +43,8 @@
     grid-template-columns: repeat(auto-fit, 100px);
     grid-template-rows: repeat(auto-fit, 100px);
     width: 100%;
+    gap: 30px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
