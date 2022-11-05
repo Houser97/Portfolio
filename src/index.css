@@ -5,8 +5,12 @@
   --constant-x: 40px;
   --constant-y: 60px;
   --offset-y: 80px;
+
   --border-width: 20px;
   --border-color: #edc822;
+  --border-width-medium: 16px;
+  --border-width-small: 13px;
+
   /*--home-background: rgb(28, 26, 26);*/
   --home-background: #00204A;
   --about-background: #005792;
@@ -47,13 +51,13 @@ code {
 
 @media (max-width: 720px) {
   html{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 520px) {
   html{
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
