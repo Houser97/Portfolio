@@ -8,7 +8,7 @@
     padding: 10px 20px;
     font-size: 5.3rem;
     width: 800px;
-    color: white;
+    color: var(--home-color);
     font-family: 'Gelasio', serif;
 }
 

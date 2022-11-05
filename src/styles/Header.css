@@ -22,7 +22,7 @@ header a {
     padding: 70px 40px;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--home-color);
     position: relative;
     transition: all 350ms ease-in-out;
 }
@@ -61,7 +61,7 @@ header a {
 
 
 .app__header-subcontainer .btn.selected-link{
-    color: white;
+    color: var(--home-color);
 }
 
 /* Efecto de línea inferior */
@@ -71,7 +71,7 @@ header a {
     bottom: 0px;
     width: 0px;
     height: 1px;
-    background-color: white;
+    background-color: var(--home-color);
     transition: width 250ms ease-in-out;
 }
 
