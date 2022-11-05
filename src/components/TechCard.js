@@ -1,8 +1,11 @@
 import React from 'react'
 
-const TechCard = () => {
+const TechCard = ({img, text}) => {
   return (
-    <div>TechCard</div>
+    <div className='app__TechCard'>
+        <img className='app__TechCard-img'>{img}</img>
+        <div className='app__TechCard-text'>{text}</div>
+    </div>
   )
 }
 
