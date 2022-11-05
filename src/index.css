@@ -7,7 +7,9 @@
   --offset-y: 80px;
   --border-width: 20px;
   --border-color: #edc822;
-  --home-background: rgb(28, 26, 26);
+  /*--home-background: rgb(28, 26, 26);*/
+  --home-background: #00204A;
+  --about-background: #005792;
 }
 
 html{
