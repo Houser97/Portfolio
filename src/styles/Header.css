@@ -29,7 +29,7 @@ header a {
 
 .app_header-logo{
     font-family: 'Noto Serif Devanagari', serif;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     height: 100%;
     display: flex;
     align-items: center !important; justify-content: center !important;
@@ -146,9 +146,7 @@ nav{
 /*----------------------*/
 
 @media (max-width: 920px) {
-    .app__header-subcontainer{
-        padding: 2px 50px;
-    }
+
  }
 
 @media (max-width: 800px) {
@@ -165,8 +163,14 @@ nav{
     }
 }
 
-@media (max-width: 500px) {
-    .app__header-subcontainer{
-        padding: 2px 30px;
+@media (max-width: 600px) {
+    .app_header-logo{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .app_header-logo{
+        font-size: 5.3rem;
     }
 }
