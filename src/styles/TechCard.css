@@ -1,0 +1,4 @@
+.app__TechCard{
+    display: flex;
+    flex-flow: column;
+}
