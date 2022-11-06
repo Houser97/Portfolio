@@ -1,0 +1,10 @@
+.app__projects{
+    width: 100%;
+    display: flex;
+    background-color: var(--project-background);
+}
+
+.app__projects-subcontainer{
+    width: 100%;
+    padding: 10px 140px;
+}
