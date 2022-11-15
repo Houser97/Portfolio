@@ -8,7 +8,32 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Projects = () => {
 
+  useEffect(() => {
+    
+    gsap.utils.toArray('.app__project-card').forEach(project => {
+      gsap.set(project, {
+        scrollTrigger: {
+          y: '30%'
+        }
+      });
 
+      gsap.to(project, {
+        scrollTrigger: {
+          trigger: project,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 0.2,
+          markers: true,
+        },
+        y: '-30%'
+      })
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach(animation => animation.kill())
+    }
+  }, [])
+  
 
   return (
     <div className='app__projects'>
