@@ -9,6 +9,9 @@ gsap.registerPlugin(ScrollTrigger)
 const Projects = () => {
 
   useEffect(() => {
+
+    const decotarionYStart = '-10%';
+    const decorationYEnd = '17%';
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
       gsap.set(project, {
@@ -29,7 +32,7 @@ const Projects = () => {
 
     gsap.utils.toArray('.project-card-decoration').forEach(decoration => {
       gsap.set(decoration, {
-          y: '-10%',
+          y: decotarionYStart,
       });
 
       gsap.to(decoration, {
@@ -39,13 +42,13 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2,
         },
-        y: '17%'
+        y: decorationYEnd,
       })
     });
 
     gsap.utils.toArray('.project-card-decoration-reversed').forEach(decoration => {
       gsap.set(decoration, {
-        y: '-10%'
+        y: decotarionYStart,
       });
 
       gsap.to(decoration, {
@@ -55,7 +58,7 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2
         },
-        y: '17%'
+        y: decorationYEnd
       })
     })
 
