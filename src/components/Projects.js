@@ -47,6 +47,16 @@ const Projects = () => {
       gsap.set(decoration, {
         y: '-10%'
       });
+
+      gsap.to(decoration, {
+        scrollTrigger: {
+          trigger: decoration,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 0.2
+        },
+        y: '17%'
+      })
     })
 
     return () => {
