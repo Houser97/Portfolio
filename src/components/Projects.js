@@ -41,6 +41,12 @@ const Projects = () => {
         },
         y: '17%'
       })
+    });
+
+    gsap.utils.toArray('.project-card-decoration-reversed').forEach(decoration => {
+      gsap.set(decoration, {
+        y: '-10%'
+      });
     })
 
     return () => {
