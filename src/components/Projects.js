@@ -39,7 +39,7 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2,
         },
-        y: '5%'
+        y: '17%'
       })
     })
 
