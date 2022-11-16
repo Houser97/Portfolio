@@ -13,11 +13,15 @@ const Projects = () => {
     const decorationYValues = {
       yStart: '-10%',
       yEnd: '17%',
+      yStartMobile: '-5%',
+      yEndMobile: '5%',
     }
 
     const cardYValues = {
       yStart: '15%',
       yEnd: '-10%',
+      yStartMobile: '-5%',
+      yEndMobile: '5%',
     }
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
