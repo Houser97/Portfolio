@@ -10,8 +10,10 @@ const Projects = () => {
 
   useEffect(() => {
 
-    const decotarionYStart = '-10%';
-    const decorationYEnd = '17%';
+    const decorationYValues = {
+      yStart: '-10%',
+      yEnd: '17%',
+    }
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
       gsap.set(project, {
@@ -32,7 +34,7 @@ const Projects = () => {
 
     gsap.utils.toArray('.project-card-decoration').forEach(decoration => {
       gsap.set(decoration, {
-          y: decotarionYStart,
+          y: decorationYValues.yStart,
       });
 
       gsap.to(decoration, {
@@ -42,13 +44,13 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2,
         },
-        y: decorationYEnd,
+        y: decorationYValues.yEnd,
       })
     });
 
     gsap.utils.toArray('.project-card-decoration-reversed').forEach(decoration => {
       gsap.set(decoration, {
-        y: decotarionYStart,
+        y: decorationYValues.yStart,
       });
 
       gsap.to(decoration, {
@@ -58,7 +60,7 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2
         },
-        y: decorationYEnd
+        y: decorationYValues.yEnd,
       })
     })
 
