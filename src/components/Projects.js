@@ -16,8 +16,8 @@ const Projects = () => {
     }
 
     const cardYValues = {
-      yStart: '30%',
-      yEnd: '-30%',
+      yStart: '15%',
+      yEnd: '-10%',
     }
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
