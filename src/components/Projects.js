@@ -12,9 +12,7 @@ const Projects = () => {
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
       gsap.set(project, {
-        scrollTrigger: {
           y: '30%'
-        }
       });
 
       gsap.to(project, {
