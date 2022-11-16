@@ -14,10 +14,15 @@ const Projects = () => {
       yStart: '-10%',
       yEnd: '17%',
     }
+
+    const cardYValues = {
+      yStart: '30%',
+      yEnd: '-30%',
+    }
     
     gsap.utils.toArray('.app__project-card').forEach(project => {
       gsap.set(project, {
-          y: '30%'
+          y: cardYValues.yStart,
       });
 
       gsap.to(project, {
@@ -28,7 +33,7 @@ const Projects = () => {
           scrub: 0.2,
           markers: true,
         },
-        y: '-30%'
+        y: cardYValues.yEnd
       })
     });
 
