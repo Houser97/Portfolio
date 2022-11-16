@@ -29,6 +29,16 @@ const Projects = () => {
       })
     });
 
+    gsap.utils.toArray('.project-card-decoration').forEach(decoration => {
+      gsap.set(decoration, {
+        scrollTrigger:{
+          y: '-10%',
+        }
+      });
+
+      
+    })
+
     return () => {
       ScrollTrigger.getAll().forEach(animation => animation.kill())
     }
