@@ -36,7 +36,15 @@ const Projects = () => {
         }
       });
 
-      
+      gsap.to(decoration, {
+        scrollTrigger:{
+          trigger: decoration,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 0.2,
+        },
+        y: '5%'
+      })
     })
 
     return () => {
