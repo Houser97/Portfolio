@@ -69,5 +69,21 @@
     display: flex;
     flex: 1;
     height: 350px;
-    background-color: black;
+    background-color: rgb(47, 46, 46);
+}
+
+@media (max-width: 810px) {
+    .app__project-subcontainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto-fill, minmax(300px));
+    }
+    
+    .app__project-subcontainer-reversed{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 200px;
+    }
+
+    .project-description{
+        height: 100%;
+    }
 }
