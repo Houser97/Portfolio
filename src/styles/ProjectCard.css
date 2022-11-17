@@ -19,7 +19,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 300px minmax(250px, 300px);
+    grid-template-columns: 300px minmax(400px, 900px);
     gap: 20px;
 }
 
@@ -29,7 +29,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: minmax(250px, 300px) 300px;
+    grid-template-columns: minmax(400px, 900px) 300px;
     gap: 20px;
 }
 
