@@ -1,10 +1,12 @@
 .app__projects{
     width: 100%;
-    display: flex;
     background-color: var(--project-background);
 }
 
 .app__projects-subcontainer{
     width: 100%;
     padding: 0px 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, 1fr);
 }
