@@ -12,14 +12,14 @@ const Projects = () => {
 
     const decorationYValues = {
       yStart: '-10%',
-      yEnd: '17%',
+      yEnd: '10%',
       yStartMobile: '-5%',
       yEndMobile: '5%',
     }
 
     const cardYValues = {
-      yStart: '15%',
-      yEnd: '-10%',
+      yStart: '20%',
+      yEnd: '-20%',
       yStartMobile: '-5%',
       yEndMobile: '5%',
     }
