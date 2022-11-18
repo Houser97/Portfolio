@@ -1,12 +1,3 @@
-/*Esta clase es el contenedor dado por ANIMATE*/
-.animate-project-card{
-    width: 100%;
-    height: 100%;
-    display: flex;  
-    justify-content: center; 
-    align-items: center;
-}
-
 .app__project-card{
     width: 100%;
     height: 100%;
@@ -38,8 +29,8 @@
 
 .project-img-container{
     position: relative;  
-    width: 350px;
-    height: 350px; 
+    width: 400px;
+    height: 400px; 
     display: flex;
     overflow: visible;
 }
