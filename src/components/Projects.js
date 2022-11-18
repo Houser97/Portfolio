@@ -80,6 +80,7 @@ const Projects = () => {
 
   return (
     <div className='app__projects'>
+        <h1 className='projects-title'>Projects</h1>
         <div className='app__projects-subcontainer'>
             <ProjectCard reversed = {false}/>
             <ProjectCard reversed = {true}/>
