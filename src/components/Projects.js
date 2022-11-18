@@ -24,7 +24,7 @@ const Projects = () => {
       yEndMobile: '5%',
     }
     
-    gsap.utils.toArray('.app__project-card').forEach(project => {
+    gsap.utils.toArray('.project-description').forEach(project => {
       gsap.set(project, {
           y: cardYValues.yStart,
       });
