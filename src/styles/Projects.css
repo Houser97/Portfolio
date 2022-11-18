@@ -4,11 +4,11 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding: 0px 60px;
 }
 
 .app__projects-subcontainer{
     width: 100%;
-    padding: 0px 40px;
 }
 
 .projects-title{
@@ -23,6 +23,6 @@
 
 @media (max-width: 900px) {
     .projects-title{
-        width: 90%;
+        width: 100%;
     }
 }
