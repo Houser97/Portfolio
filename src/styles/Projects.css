@@ -1,6 +1,9 @@
 .app__projects{
     width: 100%;
     background-color: var(--project-background);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .app__projects-subcontainer{
