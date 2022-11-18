@@ -20,3 +20,9 @@
     text-align: center;
     color: white;
 }
+
+@media (max-width: 900px) {
+    .projects-title{
+        width: 90%;
+    }
+}
