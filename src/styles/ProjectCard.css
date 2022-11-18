@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .app__project-subcontainer{
@@ -37,8 +38,8 @@
 
 .project-img-container{
     position: relative;  
-    width: 400px;
-    height: 400px; 
+    width: 350px;
+    height: 350px; 
     display: flex;
     overflow: visible;
 }
