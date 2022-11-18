@@ -18,7 +18,7 @@ const Projects = () => {
     }
 
     const cardYValues = {
-      yStart: '20%',
+      yStart: '0%',
       yEnd: '-20%',
       yStartMobile: '-5%',
       yEndMobile: '5%',
