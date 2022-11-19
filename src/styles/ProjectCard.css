@@ -90,4 +90,8 @@
     .project-img-container-commun{
         justify-self: center;
     }
+
+    .project-img-container-reversed{
+        grid-row: 1/2;
+    }
 }
