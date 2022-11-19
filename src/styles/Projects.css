@@ -5,6 +5,12 @@
     flex-flow: column;
     align-items: center;
     padding: 0px 60px;
+    position: relative;
+}
+
+.project-helper-header{
+    position: absolute;
+    top: calc(var(--offset-y)*-1);
 }
 
 .app__projects-subcontainer{
