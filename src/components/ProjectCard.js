@@ -19,7 +19,7 @@ const ProjectCard = ({reversed}) => {
                 <div className='project-description'>
 
                 </div>
-                <div className='project-img-container'>
+                <div className='project-img-container-reversed'>
                     <span className='project-card-decoration-reversed'></span>
                     <div className='project-img'></div>
                 </div>
