@@ -35,6 +35,7 @@ const Projects = () => {
           start: 'top bottom',
           end: 'bottom top',
           scrub: 0.2,
+          markers: true,
         },
         y: cardYValues.yEnd
       })
