@@ -11,15 +11,15 @@ const Projects = () => {
   useEffect(() => {
 
     const decorationYValues = {
-      yStart: '-10%',
-      yEnd: '10%',
+      yStart: '0%',
+      yEnd: '12%',
       yStartMobile: '-5%',
       yEndMobile: '5%',
     }
 
     const cardYValues = {
-      yStart: '0%',
-      yEnd: '-20%',
+      yStart: '30%',
+      yEnd: '-24%',
       yStartMobile: '-5%',
       yEndMobile: '5%',
     }
