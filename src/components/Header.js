@@ -32,7 +32,7 @@ const Header = () => {
                 onClick={() => setActiveLink('About')}>About me</a>
                 <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Skills')}>Skills</a>
-                <a className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
+                <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Projects')}>Projects</a>
             </div>
 
