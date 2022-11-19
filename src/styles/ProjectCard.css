@@ -95,3 +95,10 @@
         grid-row: 1/2;
     }
 }
+
+@media (max-width: 580px) {
+    .project-img-container-commun{
+        width: 100%;
+        height: 100%;
+    }
+}
