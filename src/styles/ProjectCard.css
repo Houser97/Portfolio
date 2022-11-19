@@ -102,3 +102,17 @@
         height: 100%;
     }
 }
+
+@media (max-width: 420px) {
+    .project-img-container-commun{
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 380px) {
+    .project-img-container-commun{
+        width: 200px;
+        height: 200px;
+    }
+}
