@@ -136,7 +136,7 @@ nav{
     padding-top: 0px;
     padding-left: 30px;
     transition: transform 300ms ease-in-out;
-    background-color: green;
+    background-color: black;
 }
 
 .show-nav {
