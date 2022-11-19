@@ -76,7 +76,7 @@
     z-index: 2;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 820px) {
     .app__project-subcontainer{
         grid-template-columns: 1fr;
         grid-template-rows: 300px 350px;
@@ -85,5 +85,9 @@
     .app__project-subcontainer-reversed{
         grid-template-columns: 1fr;
         grid-template-rows: 300px 350px;
+    }
+
+    .project-img-container-commun{
+        justify-self: center;
     }
 }
