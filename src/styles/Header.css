@@ -127,16 +127,16 @@ nav{
     display: flex;
     flex: 1;
     align-items: center; justify-content: space-around;
-    top: 0; left: 0px;
+    bottom: 90px; left: 0px;
     padding: 20px 0px;
     width: 100%;
     box-sizing: border-box;
     transition: transform 300ms ease-in-out;
-    background-color: green;
+    background-color: black;
 }
 
 .show-nav {
-    transform: translateY(300%);
+    transform: translateY(calc(100% + 80px));
 }
 
 /*----------------------*/
