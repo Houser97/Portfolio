@@ -154,7 +154,7 @@ nav{
     position: absolute;
     width: 100%;
     border: 1px white solid;
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, opacity 250ms ease-in-out
 }
 
 .upper-line-nav{
@@ -165,7 +165,17 @@ nav{
     bottom: var(--spans-top-bottom-offset);
 }
 
+.upper-animate{
+    transform: rotate(45deg);
+}
 
+.middle-animate{
+    opacity: 0;
+}
+
+.lower-animate{
+    transform: rotate(calc(45deg*-1));
+}
 
 /*----------------------*/
 
