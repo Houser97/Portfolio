@@ -43,9 +43,9 @@ const Header = () => {
               <svg className={`app_header-close app_header-svg ${toggle ? 'show-svg' : 'hide-svg'}`} viewBox="0 0 24 24">
                   <path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
               </svg>*/}
-              <span className={`line-navbar upper-line-nav ${toggle ? 'upper-animate' : ''}`}></span>
-              <span className={`line-navbar middle-line-nav ${toggle ? 'middle-animate' : ''}`}></span>
-              <span className={`line-navbar lower-line-nav ${toggle ? 'lower-animate' : ''}`}></span>
+              <span className={`upper-line-nav ${toggle ? 'upper-animate return-animation' : 'line-navbar'}`}></span>
+              <span className={`middle-line-nav ${toggle ? 'middle-animate return-animation' : 'line-navbar'}`}></span>
+              <span className={`lower-line-nav ${toggle ? 'lower-animate return-animation' : 'line-navbar'}`}></span>
             </div>
 
             <nav className={`${toggle ? 'show-nav':''}`}>
