@@ -146,6 +146,10 @@ nav{
 /*----------------------*/
 
 /*Animación botón Navbar*/
+.app_header-btn-toggle{
+    align-items: center;
+}
+
 .line-navbar{
     position: absolute;
     width: 100%;
