@@ -134,6 +134,7 @@ nav{
     box-sizing: border-box;
     transition: transform 300ms ease-in-out;
     background-color: black;
+    z-index: -5;
 }
 
 .show-nav {
