@@ -130,6 +130,7 @@ nav{
     bottom: 90px; left: 0px;
     padding: 20px 0px;
     width: 100%;
+    transform: translateY(-100%);
     box-sizing: border-box;
     transition: transform 300ms ease-in-out;
     background-color: black;
