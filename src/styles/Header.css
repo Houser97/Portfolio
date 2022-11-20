@@ -145,6 +145,15 @@ nav{
 
 /*----------------------*/
 
+/*Animación botón Navbar*/
+.line-navbar{
+    position: absolute;
+    width: 100%;
+    border: 1px white solid;
+}
+
+/*----------------------*/
+
 @media (max-width: 920px) {
 
  }
