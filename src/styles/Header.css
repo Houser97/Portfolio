@@ -154,6 +154,7 @@ nav{
     position: absolute;
     width: 100%;
     border: 1px white solid;
+    transition: transform 250ms ease-in-out;
 }
 
 .upper-line-nav{
@@ -163,6 +164,8 @@ nav{
 .lower-line-nav{
     bottom: var(--spans-top-bottom-offset);
 }
+
+
 
 /*----------------------*/
 
