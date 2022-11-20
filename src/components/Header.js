@@ -49,13 +49,13 @@ const Header = () => {
             </div>
 
             <nav className={`${toggle ? 'show-nav':''}`}>
-               <a className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
+               <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
-                <a className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
+                <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('About')}>About me</a>
-                <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
+                <a href='#skills' className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Skills')}>Skills</a>
-                <a className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
+                <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Projects')}>Projects</a>
             </nav>
         </div>
