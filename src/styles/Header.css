@@ -124,23 +124,21 @@ nav{
     font-family: 'Noto Serif Devanagari', serif;
     position: absolute;
     font-size: 16px;
-    display: none; flex-flow: column;
+    display: flex;
     flex: 1;
-    align-items: flex-start; justify-content: space-around;
-    top: 100%; left: 100%;
-    height: calc(100vh - 80px);
-    width: 210px;
-    right: 0px;
+    align-items: center; justify-content: space-around;
+    top: -100%; left: 0px;
+    width: 100%;
     box-sizing: border-box;
     padding: 60px 0px;
     padding-top: 0px;
     padding-left: 30px;
     transition: transform 300ms ease-in-out;
-    background-color: black;
+    background-color: green;
 }
 
 .show-nav {
-    transform: translateX(-100%);
+    transform: translateY(200%);
 }
 
 /*----------------------*/
