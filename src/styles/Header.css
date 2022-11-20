@@ -152,6 +152,14 @@ nav{
     border: 1px white solid;
 }
 
+.upper-line-nav{
+    top: 10px;
+}
+
+.lower-line-nav{
+    bottom: 10px;
+}
+
 /*----------------------*/
 
 @media (max-width: 920px) {
