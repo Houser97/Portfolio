@@ -48,7 +48,7 @@ const Header = () => {
               <span className={`lower-line-nav ${toggle ? 'lower-animate return-animation' : 'line-navbar'}`}></span>
             </div>
 
-            <nav className={`${toggle ? 'show-nav':''}`}>
+            <nav className={`${toggle ? 'show-nav':''} ${isAtTop ? '':'not-at-top-nav'}`}>
                <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
                 <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
