@@ -157,11 +157,11 @@ nav{
 }
 
 .upper-line-nav{
-    top: 10px;
+    top: var(--spans-top-bottom-offset);
 }
 
 .lower-line-nav{
-    bottom: 10px;
+    bottom: var(--spans-top-bottom-offset);
 }
 
 /*----------------------*/
