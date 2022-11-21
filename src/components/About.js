@@ -10,7 +10,7 @@ export const About = () => {
         <div className='app_about-subcontainer'>
             <h1 className='about-title'>
               <span className='color-line-left color-line'></span>
-              About
+              <div className='section-title-container'>About</div>
               <span className='color-line-right color-line'></span>
             </h1>
             <div className='personal-data-container'>
