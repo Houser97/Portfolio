@@ -22,7 +22,7 @@
     height: 100%;
     display: grid;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     grid-template-columns: minmax(400px, 900px) minmax(200px, 300px);
 }
 
