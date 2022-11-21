@@ -8,7 +8,11 @@ export const About = () => {
     <div className='app__about'>
         <span className='about-anchor-helper' id = 'about'></span>
         <div className='app_about-subcontainer'>
-            <h1 className='about-title'>About</h1>
+            <h1 className='about-title'>
+              <span className='color-line-left color-line'></span>
+              About
+              <span className='color-line-right color-line'></span>
+            </h1>
             <div className='personal-data-container'>
               <div className='about-text'>
                   Mechatronics engineering graduate who undertook the challenge
