@@ -149,7 +149,7 @@ nav{
     box-sizing: border-box;
     background-color: transparent;
     z-index: -5;
-    transition: all 350ms ease-in-out 300ms, transform 300ms ease-in-out;
+    transition: transform 450ms ease-in-out;
 }
 
 .show-nav {
@@ -166,7 +166,7 @@ nav{
     opacity: 0;
 }
 
-.not-at-top-nav{
+.not-at-top-nav-helper{
     opacity: 1;
     transition: opacity 350ms ease-in-out 300ms;
 }
