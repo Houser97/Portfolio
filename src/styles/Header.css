@@ -119,6 +119,12 @@ header a {
     padding: 45px 40px;
 }
 
+.header-backgound{
+    background-color: black;
+    z-index: 9;
+    position: absolute;
+}
+
 /*Nav section*/
 nav{
     font-family: 'Noto Serif Devanagari', serif;
