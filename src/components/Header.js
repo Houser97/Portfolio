@@ -49,7 +49,7 @@ const Header = () => {
               <span className={`lower-line-nav ${toggle ? 'lower-animate return-animation' : 'line-navbar'}`}></span>
             </div>
 
-            <nav className={`${toggle ? 'show-nav':''} ${isAtTop ? '':'not-at-top-nav'}`}>
+            <nav className={`${toggle ? 'show-nav':''}`}>
                <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
                 <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
@@ -58,7 +58,7 @@ const Header = () => {
                 onClick={() => setActiveLink('Skills')}>Skills</a>
                 <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Projects')}>Projects</a>
-                <div className={`helper-nav ${isAtTop ? 'delay-background':'not-at-top-nav'} `}></div>
+                <div className={`helper-nav ${isAtTop ? 'delay-background':'not-at-top-nav-helper'} `}></div>
             </nav>
         </div>
     </header>
