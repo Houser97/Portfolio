@@ -23,6 +23,7 @@ const Header = () => {
 
   return (
     <header>
+        <div className={`header-backgound ${isAtTop ? '':'not-at-top-header'}`}></div>
         <div className={`app__header-subcontainer ${isAtTop ? '':'not-at-top'}`}>
             <div className='app_header-logo'>Logo</div>
             <div className='app__header-btns'>
