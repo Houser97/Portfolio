@@ -58,6 +58,7 @@ const Header = () => {
                 onClick={() => setActiveLink('Skills')}>Skills</a>
                 <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Projects')}>Projects</a>
+                <div className={`${isAtTop ? '':'.not-at-top-nav'} helper-nav`}></div>
             </nav>
         </div>
     </header>
