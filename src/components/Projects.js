@@ -81,7 +81,11 @@ const Projects = () => {
   return (
     <div className='app__projects'>
         <span className='project-helper-header' id='projects'></span>
-        <h1 className='projects-title'>Projects</h1>
+        <h1 className='projects-title'>
+          <span className='color-line-left color-line'></span>
+          <div className='section-title-container'>Projects</div>
+          <span className='color-line-right color-line'></span>
+        </h1>
         <div className='app__projects-subcontainer'>
             <ProjectCard reversed = {false}/>
             <ProjectCard reversed = {true}/>
