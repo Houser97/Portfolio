@@ -30,7 +30,7 @@ const Header = () => {
                 <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
                 <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
-                onClick={() => setActiveLink('About')}>About me</a>
+                onClick={() => setActiveLink('About')}>About</a>
                 <a className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Skills')}>Skills</a>
                 <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
@@ -53,7 +53,7 @@ const Header = () => {
                <a href='#home' className={`Home-btn btn ${activeLink === 'Home' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Home')}>Home</a>
                 <a href='#about' className={`About-btn btn ${activeLink === 'About' ? 'selected-link' : ''}`}
-                onClick={() => setActiveLink('About')}>About me</a>
+                onClick={() => setActiveLink('About')}>About</a>
                 <a href='#skills' className={`Skills-btn btn ${activeLink === 'Skills' ? 'selected-link' : ''}`}
                 onClick={() => setActiveLink('Skills')}>Skills</a>
                 <a href='#projects' className={`Projects-btn btn ${activeLink === 'Projects' ? 'selected-link' : ''}`}
