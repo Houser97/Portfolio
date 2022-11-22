@@ -36,3 +36,10 @@
         width: 100%;
     }
 }
+
+@media (max-width: 800px) {
+    .project-helper-header{
+        position: absolute;
+        top: calc(var(--offset-y)*-1 - 25px);
+    }
+}
