@@ -94,6 +94,10 @@
     .project-img-container-reversed{
         grid-row: 1/2;
     }
+
+    .app__project-card{
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 580px) {
