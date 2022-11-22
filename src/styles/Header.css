@@ -152,6 +152,10 @@ nav{
     transition: transform 450ms ease-in-out;
 }
 
+nav .btn {
+    margin: 0px;
+}
+
 .show-nav {
     transform: translateY(calc(100% + 80px));
 }
