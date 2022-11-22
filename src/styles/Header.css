@@ -148,7 +148,7 @@ nav{
     transform: translateY(-100%);
     box-sizing: border-box;
     background-color: transparent;
-    z-index: 1;
+    z-index: -5;
     transition: transform 450ms ease-in-out;
 }
 
@@ -167,6 +167,7 @@ nav .btn {
 
 .show-nav-at-top {
     transform: translateY(calc(100% + 40px));
+    z-index: 1;
 }
 
 .helper-nav{
