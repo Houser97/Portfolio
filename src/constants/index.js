@@ -47,4 +47,12 @@ export const icons = [
         classIcon: 'devicon-heroku-plain colored icon',
         text: 'Heroku'
     },
+    {
+        classIcon: 'devicon-docker-plain colored icon',
+        text: 'Docker'
+    },
+    {
+        classIcon: 'devicon-python-plain colored icon',
+        text: 'Python'
+    },
 ]
