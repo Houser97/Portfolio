@@ -160,6 +160,15 @@ nav .btn {
     transform: translateY(calc(100% + 80px));
 }
 
+
+.show-nav-not-at-top {
+    transform: translateY(calc(100% + 80px));
+}
+
+.show-nav-at-top {
+    transform: translateY(calc(100% + 40px));
+}
+
 .helper-nav{
     background-color: black;
     display: flex;
