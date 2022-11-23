@@ -27,7 +27,7 @@ const Projects = () => {
     }
 
     const cardYValues = {
-      yStart: isMobile ? '10%':'30%',
+      yStart: isMobile ? '-5%':'30%',
       yEnd: isMobile ? '-10%':'-24%',
     }
     
