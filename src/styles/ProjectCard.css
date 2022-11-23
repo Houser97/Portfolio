@@ -102,7 +102,7 @@
 
 @media (max-width: 580px) {
     .project-img-container-commun{
-        width: 100%;
+        width: 300px;
         height: 100%;
     }
 }
@@ -114,9 +114,9 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 370px) {
     .project-img-container-commun{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 }
