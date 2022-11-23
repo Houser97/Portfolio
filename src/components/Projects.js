@@ -13,7 +13,11 @@ const Projects = () => {
   const [isMobile, setIsMobile] = useState(null)
 
   useEffect(() => {
-
+    if(windowSize.width <= 580){
+      setIsMobile(true)
+    } else {
+      setIsMobile(false)
+    }
   }, [windowSize])
 
   useEffect(() => {
