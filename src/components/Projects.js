@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/Projects.css'
 import ProjectCard from './ProjectCard'
 import gsap from 'gsap'
@@ -8,6 +8,9 @@ import useWindowSize from '../hooks/windowSizeHook'
 gsap.registerPlugin(ScrollTrigger)
 
 const Projects = () => {
+  const windowSize = useWindowSize();
+
+  const [isMobile, setIsMobile] = useState(null)
 
   useEffect(() => {
 
