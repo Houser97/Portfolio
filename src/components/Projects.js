@@ -14,6 +14,9 @@ const Projects = () => {
 
   useEffect(() => {
 
+  }, [windowSize])
+
+  useEffect(() => {
     const decorationYValues = {
       yStart: '0%',
       yEnd: '12%',
