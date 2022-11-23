@@ -79,12 +79,12 @@
 @media (max-width: 820px) {
     .app__project-subcontainer{
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(200px, 300px) 350px;
+        grid-template-rows: minmax(200px, 300px) minmax(200px, 1fr);
     }
     
     .app__project-subcontainer-reversed{
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(200px, 300px) 350px;
+        grid-template-rows: minmax(200px, 300px) minmax(200px, 1fr);
     }
 
     .project-img-container-commun{
