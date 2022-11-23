@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Projects = () => {
   const windowSize = useWindowSize();
 
-  const [isMobile, setIsMobile] = useState(null)
+  const [isMobile, setIsMobile] = useState(windowSize.width <= 580)
 
   useEffect(() => {
     if(windowSize.width <= 580){
@@ -22,13 +22,13 @@ const Projects = () => {
 
   useEffect(() => {
     const decorationYValues = {
-      yStart: '0%',
-      yEnd: '12%',
+      yStart: isMobile ? '-5%':'0%',
+      yEnd: isMobile ? '5%':'12%',
     }
 
     const cardYValues = {
-      yStart: '30%',
-      yEnd: '-24%',
+      yStart: isMobile ? '10%':'30%',
+      yEnd: isMobile ? '-10%':'-24%',
     }
     
     gsap.utils.toArray('.project-description').forEach(project => {
