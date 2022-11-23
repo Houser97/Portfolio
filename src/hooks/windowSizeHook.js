@@ -21,5 +21,4 @@ export default function useWindowSize(){
         window.removeEventListener('resize', handleResize)
       }
     }, [])
-    
 }

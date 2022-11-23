@@ -3,6 +3,7 @@ import '../styles/Projects.css'
 import ProjectCard from './ProjectCard'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
+import useWindowSize from '../hooks/windowSizeHook'
 
 gsap.registerPlugin(ScrollTrigger)
 
