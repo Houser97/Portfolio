@@ -1,3 +1,6 @@
+import BlogAPI from '../assets/images/BlogAPI.JPG'
+import MembersOnly from '../assets/images/MembersOnly.JPG'
+
 export const icons = [
     {
         classIcon: 'devicon-html5-plain colored icon',
@@ -63,6 +66,6 @@ export const projects = [
         description: '',
         technologies: '',
         github: '',
-        preview: ''
+        preview: '',
     }
 ]
