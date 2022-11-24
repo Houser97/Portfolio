@@ -56,3 +56,13 @@ export const icons = [
         text: 'Python'
     },
 ]
+
+export const projects = [
+    {
+        image: '',
+        description: '',
+        technologies: '',
+        github: '',
+        preview: '',
+    }
+]
