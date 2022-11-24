@@ -32,7 +32,7 @@
     height: 400px; 
     display: flex;
     overflow: visible;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .project-img-container-reversed{
@@ -43,7 +43,7 @@
     /*Con FLEX END se asegura que el elemento no se desborde del grid*/
     justify-self: flex-end;
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .project-card-decoration{
@@ -82,16 +82,18 @@
 @media (max-width: 820px) {
     .app__project-subcontainer{
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(200px, 300px) minmax(200px, 1fr);
+        grid-template-rows: minmax(300px, 350px) minmax(200px, 1fr);
     }
     
     .app__project-subcontainer-reversed{
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(200px, 300px) minmax(200px, 1fr);
+        grid-template-rows: minmax(300px, 350px) minmax(200px, 1fr);
     }
 
     .project-img-container-commun{
         justify-self: center;
+        width: 100%;
+        height: 100%;
     }
 
     .project-img-container-reversed{
@@ -100,20 +102,6 @@
 
     .app__project-card{
         margin-bottom: 120px;
-    }
-}
-
-@media (max-width: 580px) {
-    .project-img-container-commun{
-        width: 300px;
-        height: 100%;
-    }
-}
-
-@media (max-width: 420px) {
-    .project-img-container-commun{
-        width: 280px;
-        height: 280px;
     }
 }
 
