@@ -28,7 +28,7 @@
 
 .project-img-container{
     position: relative;  
-    width: 400px;
+    width: 600px;
     height: 400px; 
     display: flex;
     overflow: visible;
@@ -36,7 +36,7 @@
 
 .project-img-container-reversed{
     position: relative;  
-    width: 400px;
+    width: 600px;
     height: 400px; 
     display: flex;
     /*Con FLEX END se asegura que el elemento no se desborde del grid*/
