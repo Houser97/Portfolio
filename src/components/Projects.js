@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import useWindowSize from '../hooks/windowSizeHook'
+import { projects } from '../constants'
 
 gsap.registerPlugin(ScrollTrigger)
 
