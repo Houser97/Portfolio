@@ -62,10 +62,10 @@ export const icons = [
 
 export const projects = [
     {
-        image: '',
-        description: '',
-        technologies: '',
-        github: '',
-        preview: '',
+        image: BlogAPI,
+        description: 'The project is composed of a REST API to bridge the gap between the client (REACT) and the server (Node JS).',
+        technologies: ['MongoDB', 'Express', 'React', 'Node'],
+        github: 'https://github.com/Houser97/Blog-API',
+        preview: 'https://my-blog-api.onrender.com',
     }
 ]
