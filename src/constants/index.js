@@ -67,5 +67,12 @@ export const projects = [
         technologies: ['MongoDB', 'Express', 'React', 'Node'],
         github: 'https://github.com/Houser97/Blog-API',
         preview: 'https://my-blog-api.onrender.com',
+    },
+    {
+        image: MembersOnly,
+        description: 'Aside from working with Node as backend and ejs, passport is used to add security to users signing up by means of salting.',
+        technologies: ['MongoDB', 'Express', 'Node', 'Passport'],
+        github: 'https://github.com/Houser97/members-only',
+        preview: 'https://members-only-r266.onrender.com',
     }
 ]
