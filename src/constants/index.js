@@ -63,6 +63,6 @@ export const projects = [
         description: '',
         technologies: '',
         github: '',
-        preview: '',
+        preview: ''
     }
 ]
