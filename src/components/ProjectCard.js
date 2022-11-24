@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/ProjectCard.css'
 
-const ProjectCard = ({reversed}) => {
+const ProjectCard = ({reversed, image, description}) => {
   return (
     <div className='app__project-card'>
         {!reversed ?  
