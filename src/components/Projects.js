@@ -95,9 +95,13 @@ const Projects = () => {
           <span className='color-line-right color-line'></span>
         </h1>
         <div className='app__projects-subcontainer'>
-            <ProjectCard reversed = {false}/>
-            <ProjectCard reversed = {true}/>
-            <ProjectCard reversed = {false}/>
+            {projects.map((project, index) => {
+              return(
+                <ProjectCard reversed={index%2 ? true : false} 
+                image = {project.image} 
+                description = {project.description}/>
+              )
+            })}
         </div>
     </div>
   )
