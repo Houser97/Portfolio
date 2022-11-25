@@ -12,12 +12,20 @@ const ProjectCard = ({reversed, image, description}) => {
                 </div>
                 <div className='project-description'>
                     {description}
+                    <div className='tecnologies-project'>
+                        <h3>Tecnologies:</h3>
+                        <div className='tecnologies-list'></div>
+                    </div>
                 </div>
             </div>
         : 
             <div className='app__project-subcontainer-reversed'>
                 <div className='project-description'>
                     {description}
+                    <div className='tecnologies-project'>
+                        <h3>Tecnologies:</h3>
+                        <div className='tecnologies-list'></div>
+                    </div>
                 </div>
                 <div className='project-img-container-reversed project-img-container-commun'>
                     <span className='project-card-decoration-reversed'></span>
