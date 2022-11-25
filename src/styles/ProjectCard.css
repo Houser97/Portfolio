@@ -80,6 +80,8 @@
     height: 350px;
     background-color: rgb(47, 46, 46);
     z-index: 2;
+    color: white;
+    padding: 30px 40px;
 }
 
 @media (max-width: 820px) {
