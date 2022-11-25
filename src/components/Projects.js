@@ -99,7 +99,8 @@ const Projects = () => {
               return(
                 <ProjectCard reversed={index%2 ? true : false} 
                 image = {project.image} 
-                description = {project.description}/>
+                description = {project.description}
+                technologies = {project.technologies}/>
               )
             })}
         </div>
