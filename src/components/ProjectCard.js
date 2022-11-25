@@ -14,7 +14,13 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     {description}
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
-                        <div className='tecnologies-list'></div>
+                        <div className='tecnologies-list'>
+                            {technologies.map((technology, index)=>{
+                                return(
+                                    <div>{technology}</div>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -25,7 +31,11 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
                         <div className='tecnologies-list'>
-                            React, MongoDB, Node JS, Express
+                            {technologies.map((technology, index)=>{
+                                return(
+                                    <div>{technology}</div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
