@@ -63,7 +63,7 @@ export const icons = [
 export const projects = [
     {
         image: BlogAPI,
-        description: 'The project is composed of a REST API to bridge the gap between the client (REACT) and the server (Node JS).',
+        description: 'This project takes advantage of the functionalities of the REST API concept to communicate the client (React) with the server (Node JS). In addition, it makes use of a JWT token to authenticate the blog owner and grant editing, deletion and post creation capabilities.',
         technologies: ['MongoDB', 'Express', 'React', 'Node'],
         github: 'https://github.com/Houser97/Blog-API',
         preview: 'https://my-blog-api.onrender.com',
