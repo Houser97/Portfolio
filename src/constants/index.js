@@ -1,5 +1,5 @@
-import BlogAPI from '../assets/images/BlogAPI.JPG'
-import MembersOnly from '../assets/images/MembersOnly.JPG'
+import BlogAPI from '../assets/images/BlogAPI2.JPG'
+import MembersOnly from '../assets/images/MembersOnly2.JPG'
 
 export const icons = [
     {
