@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 0px 160px;
+    padding: 0px;
     position: relative;
 }
 
@@ -15,6 +15,7 @@
 
 .app__projects-subcontainer{
     width: 100%;
+    padding: 0px 160px;
 }
 
 .projects-title{
