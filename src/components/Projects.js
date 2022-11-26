@@ -28,8 +28,8 @@ const Projects = () => {
     }
 
     const cardYValues = {
-      yStart: isMobile ? '0%':'30%',
-      yEnd: isMobile ? '0%':'-24%',
+      yStart: isMobile ? '5%':'30%',
+      yEnd: isMobile ? '-20%':'-24%',
     }
     
     gsap.utils.toArray('.project-description').forEach(project => {
