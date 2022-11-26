@@ -29,10 +29,10 @@
     grid-template-columns: minmax(400px, 900px) minmax(200px, 300px);
 }
 
-.project-img-container{
+.project-img-container{ /*Acá se define el tamaño de las imágenes*/
     position: relative;  
-    width: 400px;
-    height: 400px; 
+    width: 420px;
+    height: 420px; 
     display: flex;
     overflow: visible;
     opacity: 0.7;
@@ -40,8 +40,8 @@
 
 .project-img-container-reversed{
     position: relative;  
-    width: 400px;
-    height: 350px; 
+    width: 420px;
+    height: 420px; 
     display: flex;
     /*Con FLEX END se asegura que el elemento no se desborde del grid*/
     justify-self: flex-end;
