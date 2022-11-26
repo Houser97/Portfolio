@@ -15,7 +15,7 @@
 
 .app__projects-subcontainer{
     width: 100%;
-    padding: 0px 160px;
+    padding: 0px 60px;
 }
 
 .projects-title{
@@ -31,6 +31,14 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 1200px) {
+    .app__projects-subcontainer{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
+
 
 @media (max-width: 900px) {
     .projects-title{
