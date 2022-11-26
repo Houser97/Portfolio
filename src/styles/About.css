@@ -101,15 +101,15 @@
         column-gap: 60px;
         padding: 0px; /*Padding diferente al del título*/
     }
+
+    .app__about{
+        padding: var(--padding-main-containers-medium);
+    }
 }
 
 @media (max-width: 600px) {
     .about-text{
         font-size: 1.6rem;
-    }
-
-    .app_about-subcontainer{
-        padding: 40px 30px;
     }
 }
 
