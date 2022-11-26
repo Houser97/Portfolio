@@ -103,7 +103,7 @@
 
 @media (max-width: 820px) {
     .app__project-subcontainer{
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(300px, 400px);
         grid-template-rows: minmax(200px, 350px) minmax(200px, 1fr);
     }
     
