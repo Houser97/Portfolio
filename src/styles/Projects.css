@@ -45,7 +45,7 @@
     }
 
     .app__projects{
-        padding: 0px 30px;
+        padding: var(--padding-main-containers-medium);
     }
 }
 
