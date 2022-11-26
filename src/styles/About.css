@@ -9,6 +9,7 @@
     width: 100%;
     font-family: 'Gelasio', serif;
     position: relative;
+    padding: var(--padding-main-containers);
 }
 
 .app__about h1{
@@ -26,10 +27,7 @@
     flex-flow: column;
     align-items: center;
     width: 100%;
-    padding: var(--padding-main-containers);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-bottom: 60px;
+    padding: 40px 0px 60px 0px;
 }
 
 .about-title{
