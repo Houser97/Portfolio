@@ -18,6 +18,7 @@
   --project-background: #222831;/*#FFD369;*/
 
   --spans-top-bottom-offset: 9px;
+  --padding-main-containers: 0px 20px;
 }
 
 html{
