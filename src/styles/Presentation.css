@@ -10,7 +10,6 @@
     width: 1000px;
     color: var(--home-color);
     font-family: 'Gelasio', serif;
-    background-color: green;
 }
 
 .hi-card,
@@ -131,6 +130,7 @@
         font-size: 60px;
         height: 430px;
         justify-content: space-between;
+        padding: 30px 30px;
     }
 }
 
