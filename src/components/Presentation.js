@@ -22,6 +22,9 @@ export const Presentation = () => {
         <div className={`app_presentation-div lastname-card ${mounted ? 'animation-lname' : ''}`}>
             Rivera
         </div>
+        <div className={`app_presentation-div `}>
+           Web Developer
+        </div>
         <div className='circle small-circle-bottom'></div>
         <div className='circle medium-circle-bottom'></div>
         <div className='circle large-circle-bottom'></div>
