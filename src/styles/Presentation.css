@@ -38,9 +38,14 @@
 
 .web-developer-card{
     text-align: center;
-    transition: transform 800ms ease-in-out 2000ms, opacity 350ms ease-in-out 2000ms;
+    transition: transform 400ms ease-in-out 2700ms, opacity 350ms ease-in-out 2700ms;
     opacity: 0;
     transform: translateY(100%);
+}
+
+.animation-web-developer{
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 .animation-hi{
