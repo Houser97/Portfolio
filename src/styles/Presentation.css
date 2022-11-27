@@ -36,6 +36,13 @@
     transition: transform 800ms ease-in-out 800ms, opacity 350ms ease-in-out 1800ms;
 }
 
+.web-developer-card{
+    text-align: center;
+    transition: transform 800ms ease-in-out 2000ms, opacity 350ms ease-in-out 2000ms;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
 .animation-hi{
     transform: translateY(-20%);
     opacity: 1;
