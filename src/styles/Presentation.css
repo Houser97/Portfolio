@@ -144,4 +144,8 @@
     .app_presentation{
         font-size: 45px;
     }
+
+    .app_presentation{
+        padding: 30px 4px;
+    }
 }
