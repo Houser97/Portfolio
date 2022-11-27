@@ -161,11 +161,11 @@
 
 @media (max-width: 400px){
     .app__project-subcontainer{
-        grid-template-rows: 280px minmax(200px, 1fr);
+        grid-template-rows: 250px minmax(200px, 1fr);
     }
     
     .app__project-subcontainer-reversed{
-        grid-template-rows: 280px minmax(200px, 1fr);
+        grid-template-rows: 250px minmax(200px, 1fr);
     }
 
     .project-img-container-commun{
