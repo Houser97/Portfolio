@@ -22,7 +22,7 @@ export const Presentation = () => {
         <div className={`app_presentation-div lastname-card ${mounted ? 'animation-lname' : ''}`}>
             Rivera
         </div>
-        <div className={`app_presentation-div `}>
+        <div className={`app_presentation-div web-developer-card ${mounted ? 'animation-web-developer' : ''}`}>
            Web Developer
         </div>
         <div className='circle small-circle-bottom'></div>
