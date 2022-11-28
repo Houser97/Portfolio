@@ -101,6 +101,13 @@
     flex-flow: row;
 }
 
+/*Sección de links*/
+.preview-code-links{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
 @media (max-width: 820px) {
     .app__project-subcontainer{
         grid-template-columns: 1fr;
