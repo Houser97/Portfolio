@@ -22,13 +22,13 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         <div className='link-project github-link'>
                             Github
                             <svg className='arrow github-arrow' viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                                <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                             </svg>
                         </div>
                         <div className='link-project preview-link'>
                             Live Preview
-                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            <svg className='arrow preview-arrow'  viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                             </svg>
                         </div>
                     </div>
@@ -48,13 +48,13 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         <div className='link-project github-link'>
                             Github
                             <svg className='arrow github-arrow' viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                                <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                             </svg>
                         </div>
                         <div className='link-project preview-link'>
                             Live Preview
-                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            <svg className='arrow preview-arrow'  viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                             </svg>
                         </div>
                     </div>
