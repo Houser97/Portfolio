@@ -11,7 +11,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     <img className='project-img' src={image}></img>
                 </div>
                 <div className='project-description'>
-                    {description}
+                    <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
                         <div className='tecnologies-list'>
@@ -37,7 +37,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
         : 
             <div className='app__project-subcontainer-reversed'>
                 <div className='project-description'>
-                    {description}
+                    <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
                         <div className='tecnologies-list'>
