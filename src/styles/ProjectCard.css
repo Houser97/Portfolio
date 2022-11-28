@@ -125,7 +125,7 @@
 }
 
 .link-project:hover > svg {
-
+    transform: rotate(45deg);
 }
 
 @media (max-width: 820px) {
