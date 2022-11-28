@@ -88,6 +88,12 @@
     font-size: 18px;
 }
 
+.description-part{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
 /*Sección de tecnologias*/
 .tecnologies-project{
     display: flex;
