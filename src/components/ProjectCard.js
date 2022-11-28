@@ -19,8 +19,18 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         </div>
                     </div>
                     <div className='preview-code-links'>
-                        <div className='link-project github-link'>Github</div>
-                        <div className='link-project preview-link'>Live Preview</div>
+                        <div className='link-project github-link'>
+                            Github
+                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            </svg>
+                        </div>
+                        <div className='link-project preview-link'>
+                            Live Preview
+                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,8 +45,18 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         </div>
                     </div>
                     <div className='preview-code-links'>
-                        <div className='link-project github-link'>Github</div>
-                        <div className='link-project preview-link'>Live Preview</div>
+                        <div className='link-project github-link'>
+                            Github
+                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            </svg>
+                        </div>
+                        <div className='link-project preview-link'>
+                            Live Preview
+                            <svg className='arrow github-arrow' viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
                 <div className='project-img-container-reversed project-img-container-commun'>
