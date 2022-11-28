@@ -99,8 +99,6 @@
     display: flex;
     flex-flow: column;
     border-top: 2px solid white;
-    height: 100px;
-    background-color: green;
 }
 
 .tecnologies-list{
@@ -113,7 +111,6 @@
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    background-color: blue;
 }
 
 .github-link{
