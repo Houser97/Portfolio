@@ -18,6 +18,10 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                             {technologies.join(', ')}
                         </div>
                     </div>
+                    <div className='preview-code-links'>
+                        <div className='link-project github-link'>Github</div>
+                        <div className='link-project preview-link'>Live Preview</div>
+                    </div>
                 </div>
             </div>
         : 
@@ -29,6 +33,10 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         <div className='tecnologies-list'>
                             {technologies.join(', ')}
                         </div>
+                    </div>
+                    <div className='preview-code-links'>
+                        <div className='link-project github-link'>Github</div>
+                        <div className='link-project preview-link'>Live Preview</div>
                     </div>
                 </div>
                 <div className='project-img-container-reversed project-img-container-commun'>
