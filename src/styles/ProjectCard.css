@@ -118,7 +118,7 @@
     width: max-content;
     position: absolute;
     right: 20px;
-    bottom: 0px;
+    bottom: 30px;
     padding: 10px 20px;
     background-color: rgb(15, 15, 15);
     border: 2px solid white;
@@ -146,6 +146,19 @@
 .link-project:hover > svg {
     transform: rotate(360deg) scale(1.2);
 }
+
+@media (max-width: 1100px) {
+    .preview-code-links{
+        font-size: 14px;
+    }
+
+    .svg-link{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/*------------------------*/
 
 @media (max-width: 820px) {
     .app__project-subcontainer{
