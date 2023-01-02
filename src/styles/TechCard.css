@@ -39,7 +39,7 @@ i{
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 750px) {
     .app__project-card .img-tech{
         height: 35px;
         width: 25px;
