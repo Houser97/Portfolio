@@ -121,13 +121,12 @@
 
 @media (max-width: 840px) {
     .app_presentation{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
 @media (max-width: 640px) {
     .app_presentation{
-        font-size: 60px;
         height: 430px;
         justify-content: space-between;
         padding: 30px 30px;
