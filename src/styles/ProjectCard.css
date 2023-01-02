@@ -110,7 +110,6 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 /*/*Sección de Github y Preview*/
@@ -184,6 +183,11 @@
     .preview-code-links-sm{
         display: flex;
     }
+
+    .tecnologies-list{
+        justify-content: center;
+    }
+    
 }
 
 /*------------------------*/
