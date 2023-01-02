@@ -4,6 +4,7 @@ import Disney from '../assets/images/DisneyOverview.JPG'
 import Waldo from '../assets/images/WhereIsOverview.JPG'
 
 import Passport from '../assets/Icons/passport.png'
+import Jwt from '../assets/Icons/jwt.png'
 
 export const icons = [
     {
@@ -81,13 +82,18 @@ export const icons = [
         text: 'Passport',
         isDevicon: false
     },
+    {
+        classIcon: Jwt,
+        text: 'JWT',
+        isDevicon: false
+    },
 ]
 
 export const projects = [
     {
         image: BlogAPI,
         description: 'This project takes advantage of the functionalities of the REST API concept to communicate the client (React) with the server (Node JS). In addition, it makes use of a JWT token to authenticate the blog owner and grant editing, deletion and post creation capabilities.',
-        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT'],
         github: 'https://github.com/Houser97/Blog-API',
         preview: 'https://my-blog-api.onrender.com',
     },
