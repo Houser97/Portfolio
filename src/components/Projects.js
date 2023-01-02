@@ -80,6 +80,22 @@ const Projects = () => {
       })
     })
 
+    gsap.utils.toArray('.preview-code-links').forEach(decoration => {
+      gsap.set(decoration, {
+        y: '20%',
+      });
+
+      gsap.to(decoration, {
+        scrollTrigger: {
+          trigger: decoration,
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: 0.2
+        },
+        y: '-120%',
+      })
+    })
+
     return () => {
       ScrollTrigger.getAll().forEach(animation => animation.kill())
     }
