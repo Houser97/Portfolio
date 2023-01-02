@@ -92,7 +92,7 @@ const Projects = () => {
           end: 'bottom top',
           scrub: 0.2
         },
-        y: '-120%',
+        y: '-300%',
       })
     })
 
@@ -116,7 +116,8 @@ const Projects = () => {
                 <ProjectCard reversed={index%2 ? true : false} 
                 image = {project.image} 
                 description = {project.description}
-                technologies = {project.technologies}/>
+                technologies = {project.technologies}
+                key = {`Project-Card-${index}`}/>
               )
             })}
         </div>
