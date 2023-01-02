@@ -3,62 +3,83 @@ import MembersOnly from '../assets/images/MembersOnly2.JPG'
 import Disney from '../assets/images/DisneyOverview.JPG'
 import Waldo from '../assets/images/WhereIsOverview.JPG'
 
+import Passport from '../assets/Icons/passport.png'
+
 export const icons = [
     {
         classIcon: 'devicon-html5-plain colored icon',
-        text: 'HTML'
+        text: 'HTML',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-css3-plain colored icon',
-        text: 'CSS'
+        text: 'CSS',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-javascript-plain colored icon',
-        text: 'javascript'
+        text: 'javascript',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-git-plain colored icon',
-        text: 'GIT'
+        text: 'GIT',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-react-original colored icon',
-        text: 'React'
+        text: 'React',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-nodejs-plain colored icon',
-        text: 'Node.js'
+        text: 'Node.js',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-express-original colored icon express',
-        text: 'Express.js'
+        text: 'Express.js',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-mongodb-plain colored icon',
-        text: 'MongoDB'
+        text: 'MongoDB',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-jest-plain colored icon',
-        text: 'Jest'
+        text: 'Jest',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-webpack-plain colored icon',
-        text: 'Webpack'
+        text: 'Webpack',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-npm-original-wordmark colored icon',
-        text: 'npm'
+        text: 'npm',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-heroku-plain colored icon',
-        text: 'Heroku'
+        text: 'Heroku',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-docker-plain colored icon',
-        text: 'Docker'
+        text: 'Docker',
+        isDevicon: true
     },
     {
         classIcon: 'devicon-python-plain colored icon',
-        text: 'Python'
+        text: 'Python',
+        isDevicon: true
+    },
+    {
+        classIcon: Passport,
+        text: 'Passport',
+        isDevicon: false
     },
 ]
 
