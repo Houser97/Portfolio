@@ -1,5 +1,7 @@
 import BlogAPI from '../assets/images/BlogAPI2.JPG'
 import MembersOnly from '../assets/images/MembersOnly2.JPG'
+import Disney from '../assets/images/DisneyOverview.JPG'
+import Waldo from '../assets/images/WhereIsOverview.JPG'
 
 export const icons = [
     {
@@ -71,6 +73,20 @@ export const projects = [
     {
         image: MembersOnly,
         description: 'Aside from working with Node as backend and ejs, passport is used to add security to users signing up by means of salting.',
+        technologies: ['MongoDB', 'Express', 'Node', 'Passport'],
+        github: 'https://github.com/Houser97/members-only',
+        preview: 'https://members-only-r266.onrender.com',
+    },
+    {
+        image: Disney,
+        description: 'Aside from working with Node as backend and ejs, passport is used to add security to users signing up by means of salting.',
+        technologies: ['MongoDB', 'Express', 'Node', 'Passport'],
+        github: 'https://github.com/Houser97/members-only',
+        preview: 'https://members-only-r266.onrender.com',
+    },
+    {
+        image: Waldo,
+        description: "This application is based on the game Where's Waldo, which consists of finding certain characters in an image full of various elements. The application has a timer to measure the time it takes users to find the three characters. The accumulated time is saved in the database along with a username chosen by the player when all the characters have been found. On the other hand, the game has responsive qualities, since the image can be adapted to different screen sizes without losing its radius of appearance. ",
         technologies: ['MongoDB', 'Express', 'Node', 'Passport'],
         github: 'https://github.com/Houser97/members-only',
         preview: 'https://members-only-r266.onrender.com',
