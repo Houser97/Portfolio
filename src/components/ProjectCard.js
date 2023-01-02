@@ -36,7 +36,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                         <div className='tecnologies-list'>
                             {iconsProject.map((icon, i) => {
                                 return(
-                                    <TechCard classIcon={icon.classIcon} text={icon.text} />
+                                    <TechCard key={`icon-text-${i}`} {...icon} />
                                 )
                             })}
                         </div>
@@ -66,7 +66,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                             {/*technologies.join(', ')*/
                                 iconsProject.map((icon, i) => {
                                     return(
-                                        <TechCard classIcon={icon.classIcon} text={icon.text} />
+                                        <TechCard key={`icon-text-${i}`} {...icon} />
                                     )
                                 })
                             }
