@@ -16,11 +16,6 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
         setIconsProject(iconsProject);
     }, [])
 
-    useEffect(() => {
-        console.log(iconsProject)
-    },[iconsProject])
-    
-
   return (
     <div className='app__project-card'>
         {!reversed ?  
