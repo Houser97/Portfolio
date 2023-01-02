@@ -61,4 +61,8 @@
     .projects-title{
         font-size: 35px;
     }
+
+    .app__projects-subcontainer{
+        padding: 0px 0px;
+    }
 }
