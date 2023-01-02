@@ -1,7 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/ProjectCard.css'
+import { icons } from '../constants'
+import TechCard from './TechCard'
 
 const ProjectCard = ({reversed, image, description, technologies}) => {
+
+    const [iconsProject, setIconsProject] = useState([])
+    useEffect(() => {
+        let iconsProject = []
+        icons.filter(icon => {
+            if(technologies.includes(icon.text)){
+                iconsProject.push(icon)
+            }
+        })
+        setIconsProject(iconsProject);
+    }, [])
+
+    useEffect(() => {
+        console.log(iconsProject)
+    },[iconsProject])
+    
+
   return (
     <div className='app__project-card'>
         {!reversed ?  
@@ -15,7 +34,11 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
                         <div className='tecnologies-list'>
-                            {technologies.join(', ')}
+                            {iconsProject.map((icon, i) => {
+                                return(
+                                    <TechCard classIcon={icon.classIcon} text={icon.text} />
+                                )
+                            })}
                         </div>
                     </div>
                     <div className='preview-code-links'>
@@ -40,7 +63,13 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
                         <div className='tecnologies-list'>
-                            {technologies.join(', ')}
+                            {/*technologies.join(', ')*/
+                                iconsProject.map((icon, i) => {
+                                    return(
+                                        <TechCard classIcon={icon.classIcon} text={icon.text} />
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                     <div className='preview-code-links'>
