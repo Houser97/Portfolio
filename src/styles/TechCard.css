@@ -55,6 +55,10 @@ i{
     i{
         font-size: 60px;
     }
+
+    .app__project-card .app__TechCard-text{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 400px) {
