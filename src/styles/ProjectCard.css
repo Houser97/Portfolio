@@ -109,6 +109,8 @@
 .tecnologies-list{
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*/*Sección de Github y Preview*/
