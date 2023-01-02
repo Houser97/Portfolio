@@ -97,6 +97,17 @@
     display: flex;
     flex-flow: column;
     flex: 1;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .description-part{
+        font-size: 14px;
+    }
+
+    .tecnologies-project h3{
+        font-size: 18px;
+    }
 }
 
 /*Sección de tecnologias*/
