@@ -93,6 +93,12 @@
     border: 2px solid white;
 }
 
+@media (max-width: 500px) {
+    .project-description{
+        padding: 30px 10px;
+    }
+}
+
 .description-part{
     display: flex;
     flex-flow: column;
