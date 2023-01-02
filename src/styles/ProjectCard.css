@@ -110,11 +110,19 @@
     flex-flow: row;
 }
 
-/*Sección de links*/
+/*/*Sección de Github y Preview*/
 .preview-code-links{
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: max-content;
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
+    padding: 40px 50px;
+    background-color: rgb(15, 15, 15);
 }
 
 .github-link{
