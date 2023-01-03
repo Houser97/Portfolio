@@ -114,10 +114,8 @@ const Projects = () => {
             {projects.map((project, index) => {
               return(
                 <ProjectCard reversed={index%2 ? true : false} 
-                image = {project.image} 
-                description = {project.description}
-                technologies = {project.technologies}
-                key = {`Project-Card-${index}`}/>
+                key = {`project-card-${index}`} 
+                {...project} />
               )
             })}
         </div>
