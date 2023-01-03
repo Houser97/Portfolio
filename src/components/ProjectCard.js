@@ -28,7 +28,7 @@ const ProjectCard = ({reversed, image, description, technologies, title, preview
                     <div className='card-title'>{title}</div> 
                     <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
-                        <h3>Tecnologies:</h3>
+                        <h3>Technologies:</h3>
                         <div className='tecnologies-list'>
                             {iconsProject.map((icon, i) => {
                                 return(
@@ -71,7 +71,7 @@ const ProjectCard = ({reversed, image, description, technologies, title, preview
                     <div className='card-title'>{title}</div> 
                     <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
-                        <h3>Tecnologies:</h3>
+                        <h3>Technologies:</h3>
                         <div className='tecnologies-list'>
                             {/*technologies.join(', ')*/
                                 iconsProject.map((icon, i) => {
