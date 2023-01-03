@@ -3,7 +3,7 @@ import '../styles/ProjectCard.css'
 import { icons } from '../constants'
 import TechCard from './TechCard'
 
-const ProjectCard = ({reversed, image, description, technologies}) => {
+const ProjectCard = ({reversed, image, description, technologies, title}) => {
 
     const [iconsProject, setIconsProject] = useState([])
     useEffect(() => {
@@ -25,6 +25,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
                     <img className='project-img' src={image}></img>
                 </div>
                 <div className='project-description'>
+                    <div className='card-title'>{title}</div> 
                     <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>
@@ -67,6 +68,7 @@ const ProjectCard = ({reversed, image, description, technologies}) => {
         : 
             <div className='app__project-subcontainer-reversed'>
                 <div className='project-description'>
+                    <div className='card-title'>{title}</div> 
                     <div className='description-part'>{description}</div>
                     <div className='tecnologies-project'>
                         <h3>Tecnologies:</h3>

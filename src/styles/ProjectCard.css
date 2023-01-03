@@ -116,6 +116,15 @@
     }
 }
 
+.card-title{
+    font-size: 24px;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
 /*Sección de tecnologias*/
 .tecnologies-project{
     display: flex;
