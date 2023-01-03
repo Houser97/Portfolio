@@ -15,10 +15,12 @@ export const About = () => {
             </h1>
             <div className='personal-data-container'>
               <div className='about-text'>
-                  Mechatronics engineering graduate who undertook the challenge
-                  of learning web development in a self-taugh way. Having said that,
-                  I am passionate about the world of technology and the wonders that
-                  ingenuity and creativity can bring.
+                Hello, my name is Arturo Rivera, a mechatronics engineer whose interest has gravitated to 
+                the programming area. Web development, especially, captured my interest for all the 
+                technologies involved and the great opportunity to develop my problem solving skills, 
+                which motivated me to learn it in a self-taught way. My learning is still ongoing and 
+                always will be, but this journey has helped me develop study habits to make the most of my 
+                time and keep pace with new emerging technologies and best practices.
               </div>
               <div className='technologies-container'>
                 {
