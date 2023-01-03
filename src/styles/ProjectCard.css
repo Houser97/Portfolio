@@ -29,6 +29,11 @@
     grid-template-columns: minmax(400px, 900px) minmax(200px, 300px);
 }
 
+.app__project-card a {
+    text-decoration: none;
+    color: white;
+}
+
 .project-img-container{ /*Acá se define el tamaño de las imágenes*/
     position: relative;  
     /*El contenedor de las imágenes se define así para crear efecto de estar por debajo de descripción.*/
