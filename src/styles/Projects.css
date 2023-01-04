@@ -1,6 +1,6 @@
 .app__projects{
     width: 100%;
-    background-color: var(--project-background);
+    background-color: var(--background);
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -16,33 +16,13 @@
 .app__projects-subcontainer{
     width: 100%;
     padding: 0px 60px;
-}
-
-.projects-title{
-    font-family: 'Gelasio', serif;
-    width: 100%;
-    text-align: center;
-    font-size: 50px;
-    text-align: center;
-    color: white;
-    padding-bottom: 5px;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 30px;
 }
 
 @media (max-width: 1200px) {
     .app__projects-subcontainer{
         width: 100%;
         padding: 0px 10px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .projects-title{
-        width: 100%;
     }
 }
 
@@ -58,10 +38,6 @@
 }
 
 @media (max-width: 520px) {
-    .projects-title{
-        font-size: 35px;
-    }
-
     .app__projects-subcontainer{
         padding: 0px 0px;
     }
