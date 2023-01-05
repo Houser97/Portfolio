@@ -109,7 +109,7 @@ function App() {
         scrollTrigger: {
           trigger: project,
           start: 'top bottom',
-          end: 'bottom 50%',
+          end: 'bottom 15%',
           scrub: 0.2,
         },
         x: '-10%'
@@ -125,7 +125,7 @@ function App() {
             scrollTrigger: {
             trigger: project,
             start: '-70px bottom',
-            end: '-70px 50%',
+            end: '-70px 15%',
             scrub: 0.2,
             },
             x: '10%'
