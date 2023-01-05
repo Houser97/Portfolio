@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "devicon-react-svg": "^0.2.3"
+    "devicon-react-svg": "^0.2.3",
+    "gh-pages": "^4.0.0"
   }
 }
