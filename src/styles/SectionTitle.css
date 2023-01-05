@@ -8,18 +8,31 @@
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
+    padding: 10px 0px;
 }
 
 .color-line{
-    background-color: green;
-    width: 100%;
+    width: 50%;
     height: 4px;
     background: linear-gradient(90deg,#ffe62e 25%,#0f9046);
+    background: white;
+}
+
+.color-line-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.color-line-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .section-title-container{
     padding: 5px 30px;
-    border: 3px solid white;
 }
 
 @media (max-width: 520px) {
