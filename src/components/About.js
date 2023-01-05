@@ -2,17 +2,14 @@ import React from 'react'
 import '../styles/About.css'
 import { icons } from '../constants'
 import TechCard from './TechCard'
+import SectionTitle from './SectionTitle'
 
 export const About = () => {
   return (
     <div className='app__about'>
         <span className='about-anchor-helper' id = 'about'></span>
         <div className='app_about-subcontainer'>
-            <h1 className='about-title'>
-              <span className='color-line-left color-line'></span>
-              <div className='section-title-container'>About</div>
-              <span className='color-line-right color-line'></span>
-            </h1>
+            <SectionTitle title={'About'}/>
             <div className='personal-data-container'>
               <div className='about-text'>
                 Hello, my name is Arturo Rivera, a mechatronics engineer whose interest has gravitated to 
