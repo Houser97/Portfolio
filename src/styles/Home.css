@@ -1,7 +1,7 @@
 .Home{
     width: 100%;
     min-height: 100vh;
-    background-color: var(--home-background);
+    background-color: var(--background);
     display: flex;
     flex-flow: column;
     overflow: hidden;
@@ -37,7 +37,7 @@
     position: absolute;
     bottom: calc(var(--border-width)*(-1));
     left: 0px;
-    border-top: var(--border-width) var(--home-background) solid;
+    border-top: var(--border-width) var(--background) solid;
     border-right: var(--border-width) var(--border-color) solid;
 }
 
@@ -46,7 +46,7 @@
     position: absolute;
     top: 0px;
     right: calc(var(--border-width)*(-1));
-    border-top: var(--border-width) var(--home-background) solid;
+    border-top: var(--border-width) var(--background) solid;
     border-right: var(--border-width) var(--border-color) solid;
 }
 
@@ -65,7 +65,7 @@
     bottom: 0px;
     left: calc(var(--border-width)*(-1));
     border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) var(--home-background) solid;
+    border-right: var(--border-width) var(--background) solid;
 }
 
 .border-top::after{
@@ -74,7 +74,7 @@
     top: calc(var(--border-width)*(-1));
     right: 0px;
     border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) var(--home-background) solid;
+    border-right: var(--border-width) var(--background) solid;
 }
 
 @media (max-width: 700px) {
@@ -98,13 +98,13 @@
     
     .border-bottom::before{
         bottom: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--home-background) solid;
+        border-top: var(--border-width-medium) var(--background) solid;
         border-right: var(--border-width-medium) var(--border-color) solid;
     }
     
     .border-bottom::after{
         right: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--home-background) solid;
+        border-top: var(--border-width-medium) var(--background) solid;
         border-right: var(--border-width-medium) var(--border-color) solid;
     }
     
@@ -116,13 +116,13 @@
     .border-top::before{
         left: calc(var(--border-width-medium)*(-1));
         border-top: var(--border-width-medium) var(--border-color) solid;
-        border-right: var(--border-width-medium) var(--home-background) solid;
+        border-right: var(--border-width-medium) var(--background) solid;
     }
     
     .border-top::after{
         top: calc(var(--border-width-medium)*(-1));
         border-top: var(--border-width-medium) var(--border-color) solid;
-        border-right: var(--border-width-medium) var(--home-background) solid;
+        border-right: var(--border-width-medium) var(--background) solid;
     }
 }
 
@@ -134,13 +134,13 @@
     
     .border-bottom::before{
         bottom: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--home-background) solid;
+        border-top: var(--border-width-small) var(--background) solid;
         border-right: var(--border-width-small) var(--border-color) solid;
     }
     
     .border-bottom::after{
         right: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--home-background) solid;
+        border-top: var(--border-width-small) var(--background) solid;
         border-right: var(--border-width-small) var(--border-color) solid;
     }
     
@@ -152,12 +152,12 @@
     .border-top::before{
         left: calc(var(--border-width-small)*(-1));
         border-top: var(--border-width-small) var(--border-color) solid;
-        border-right: var(--border-width-small) var(--home-background) solid;
+        border-right: var(--border-width-small) var(--background) solid;
     }
     
     .border-top::after{
         top: calc(var(--border-width-small)*(-1));
         border-top: var(--border-width-small) var(--border-color) solid;
-        border-right: var(--border-width-small) var(--home-background) solid;
+        border-right: var(--border-width-small) var(--background) solid;
     }
 }
