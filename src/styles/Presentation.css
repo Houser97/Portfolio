@@ -95,3 +95,45 @@
         padding: 30px 4px;
     }
 }
+
+
+
+/**/
+@media only screen and (max-device-width: 1200px) {
+    .app_presentation{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-device-width: 570px) {
+    .app_presentation{
+        font-size: 50px;
+    }
+
+    .web-developer-card{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .app_presentation{
+        font-size: 38px;
+    }
+
+
+    .web-developer-card{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .app_presentation{
+        font-size: 32px;
+    }
+
+    .web-developer-card{
+        margin-top: 50px;
+    }
+}
+
+
