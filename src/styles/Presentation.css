@@ -76,9 +76,13 @@
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 570px) {
     .app_presentation{
         font-size: 50px;
+    }
+
+    .web-developer-card{
+        margin-top: 40px;
     }
 }
 
