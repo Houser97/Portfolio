@@ -112,7 +112,7 @@ function App() {
           end: 'bottom 15%',
           scrub: 0.2,
         },
-        x: '-10%'
+        x: '-50%'
       })
   });
 
@@ -128,7 +128,7 @@ function App() {
             end: '-70px 15%',
             scrub: 0.2,
             },
-            x: '10%'
+            x: '50%'
         })
     });
 
