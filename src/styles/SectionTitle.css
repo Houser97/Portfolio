@@ -9,12 +9,13 @@
     align-items: center;
     color: white;
     position: relative;
-    padding: 10px 0px;
+    padding: 20px 0px;
+    margin-bottom: 50px;
 }
 
 .color-line{
-    width: 50%;
-    height: 4px;
+    width: 100vw;
+    height: 2px;
     background: linear-gradient(90deg,#ffe62e 25%,#0f9046);
     background: white;
 }
