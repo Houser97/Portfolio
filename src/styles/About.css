@@ -12,10 +12,6 @@
     padding: var(--padding-main-containers);
 }
 
-.app__about h1{
-    padding: 0px;
-    margin-top: 0px;
-}
 
 .about-anchor-helper{
     position: absolute;
