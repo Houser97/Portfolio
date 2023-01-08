@@ -27,8 +27,8 @@ function App() {
 
   useEffect(() => {
     const decorationYValues = {
-      yStart: isMobile ? '-5%':'0%',
-      yEnd: isMobile ? '5%':'12%',
+      yStart: isMobile ? '-15%':'-20%',
+      yEnd: isMobile ? '15%':'12%',
     }
 
     const cardYValues = {
