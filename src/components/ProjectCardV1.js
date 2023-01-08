@@ -44,9 +44,11 @@ const ProjectCardV1 = ({image, description, technologies, title, preview, github
                 </a>
                 <a href={preview} className='link-project preview-link'>
                     Live Preview
+                    {/*
                     <svg className='svg-link preview-arrow'  viewBox="0 0 24 24">
                         <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                     </svg>
+                    */}
                 </a>
             </div>
             <div className='preview-code-links-sm'>
@@ -57,9 +59,11 @@ const ProjectCardV1 = ({image, description, technologies, title, preview, github
                 </a>
                 <a href={preview} className='link-project preview-link'>
                     Live Preview
+                    {/*
                     <svg className='svg-link preview-arrow'  viewBox="0 0 24 24">
                         <path fill="currentColor" d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" />
                     </svg>
+                    */}
                 </a>
             </div>
         </div>
