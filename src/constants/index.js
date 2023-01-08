@@ -8,72 +8,72 @@ import Jwt from '../assets/Icons/jwt.png'
 
 export const icons = [
     {
-        classIcon: 'devicon-html5-plain colored icon',
+        classIcon: 'devicon-html5-plain',
         text: 'HTML',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-css3-plain colored icon',
+        classIcon: 'devicon-css3-plain',
         text: 'CSS',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-javascript-plain colored icon',
+        classIcon: 'devicon-javascript-plain',
         text: 'javascript',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-git-plain colored icon',
+        classIcon: 'devicon-git-plain',
         text: 'GIT',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-react-original colored icon',
+        classIcon: 'devicon-react-original',
         text: 'React',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-nodejs-plain colored icon',
+        classIcon: 'devicon-nodejs-plain',
         text: 'Node.js',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-express-original colored icon express',
+        classIcon: 'devicon-express-original express',
         text: 'Express.js',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-mongodb-plain colored icon',
+        classIcon: 'devicon-mongodb-plain',
         text: 'MongoDB',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-jest-plain colored icon',
+        classIcon: 'devicon-jest-plain',
         text: 'Jest',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-webpack-plain colored icon',
+        classIcon: 'devicon-webpack-plain',
         text: 'Webpack',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-npm-original-wordmark colored icon',
+        classIcon: 'devicon-npm-original-wordmark',
         text: 'npm',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-heroku-plain colored icon',
+        classIcon: 'devicon-heroku-plain',
         text: 'Heroku',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-docker-plain colored icon',
+        classIcon: 'devicon-docker-plain',
         text: 'Docker',
         isDevicon: true
     },
     {
-        classIcon: 'devicon-python-plain colored icon',
+        classIcon: 'devicon-python-plain',
         text: 'Python',
         isDevicon: true
     },
