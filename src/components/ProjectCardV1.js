@@ -21,7 +21,7 @@ const ProjectCardV1 = ({image, description, technologies, title, preview, github
     <div className='app__project-subcontainer'>
         <div className='project-img-container project-img-container-commun'>
             <span className='project-card-decoration'></span>
-            <img className='project-img' src={image}></img>
+            <img alt='project_overview' className='project-img' src={image}></img>
         </div>
         <div className='project-description'>
             <div className='card-title'>{title}</div> 
