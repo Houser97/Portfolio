@@ -64,7 +64,7 @@ const ProjectCardV2 = ({image, description, technologies, title, preview, github
         </div>
         <div className='project-img-container-reversed project-img-container-commun'>
             <span className='project-card-decoration-reversed'></span>
-            <img className='project-img' src={image}></img>
+            <img alt='project_overview' className='project-img' src={image}></img>
         </div>
     </div>
   )

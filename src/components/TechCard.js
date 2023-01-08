@@ -7,7 +7,7 @@ const TechCard = ({classIcon, text, isDevicon}) => {
         {isDevicon ? 
           (<i className={classIcon}></i>)
           :
-          (<img src={classIcon} className = 'img-tech'></img>
+          (<img alt='tech' src={classIcon} className = 'img-tech'></img>
         )}
         <div className='app__TechCard-text'>{text}</div>
     </div>
