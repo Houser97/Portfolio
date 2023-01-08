@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d7293a8c.css",
-    "main.js": "/Portfolio/static/js/main.bb6f8c32.js",
+    "main.css": "/Portfolio/static/css/main.a10fce27.css",
+    "main.js": "/Portfolio/static/js/main.8ba53f31.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/jwt.png": "/Portfolio/static/media/jwt.a36e87725e668be078a6.png",
+    "static/media/jwtBW.png": "/Portfolio/static/media/jwtBW.27a57a42152503f3cd98.png",
     "static/media/BlogAPI2.JPG": "/Portfolio/static/media/BlogAPI2.cc1d32c56d5d2faf194e.JPG",
     "static/media/WhereIsOverview.JPG": "/Portfolio/static/media/WhereIsOverview.dfe7225d79208e80616f.JPG",
     "static/media/DisneyOverview.JPG": "/Portfolio/static/media/DisneyOverview.3cba047dcb87879aeae1.JPG",
     "static/media/MembersOnly2.JPG": "/Portfolio/static/media/MembersOnly2.2613f4d58d0171fc6cd9.JPG",
-    "static/media/passport.png": "/Portfolio/static/media/passport.454d01940d9b06a16926.png",
+    "static/media/PassportWB.png": "/Portfolio/static/media/PassportWB.fc354840569237b0f3f6.png",
     "index.html": "/Portfolio/index.html",
-    "main.d7293a8c.css.map": "/Portfolio/static/css/main.d7293a8c.css.map",
-    "main.bb6f8c32.js.map": "/Portfolio/static/js/main.bb6f8c32.js.map",
+    "main.a10fce27.css.map": "/Portfolio/static/css/main.a10fce27.css.map",
+    "main.8ba53f31.js.map": "/Portfolio/static/js/main.8ba53f31.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7293a8c.css",
-    "static/js/main.bb6f8c32.js"
+    "static/css/main.a10fce27.css",
+    "static/js/main.8ba53f31.js"
   ]
 }
