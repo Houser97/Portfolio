@@ -8,8 +8,10 @@ function Home() {
         <div className='home-subcontainer'>
           <Presentation />
         </div>
+        {/*
         <div className='border-bottom border'></div>
         <div className='border-top border'></div>
+        */}
     </div>
   )
 }
