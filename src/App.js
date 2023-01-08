@@ -95,7 +95,6 @@ function App() {
           start: '-200% bottom',
           end: '-300px top',
           scrub: 0.2,
-          markers: true
         },
         y: '-100px',
       })
