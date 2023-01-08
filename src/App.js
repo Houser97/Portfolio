@@ -86,17 +86,18 @@ function App() {
 
     gsap.utils.toArray('.preview-code-links').forEach(decoration => {
       gsap.set(decoration, {
-        y: '20%',
+        y: '0%',
       });
 
       gsap.to(decoration, {
         scrollTrigger: {
           trigger: decoration,
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: 0.2
+          start: '-200% bottom',
+          end: '-300px top',
+          scrub: 0.2,
+          markers: true
         },
-        y: '-300%',
+        y: '-100px',
       })
     });
 
