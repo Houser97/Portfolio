@@ -5,7 +5,6 @@ import ToggleButton from './ToggleButton'
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
-  const [activeLink, setActiveLink] = useState('Home')
   const [isAtTop, setIsAtTop] = useState(false)
 
   useEffect(() => {
@@ -30,13 +29,13 @@ const Header = () => {
             <div className='app_header-logo'>Logo</div>
 
             <div className='app__header-btns'>
-              <NavLinks setActiveLink={setActiveLink} activeLink = {activeLink}/>
+              <NavLinks />
             </div>
 
             <ToggleButton toggle = {toggle} setToggle ={setToggle}/>
 
             <nav className={`${toggle ? `${isAtTop ? 'show-nav-at-top':'show-nav-not-at-top'}`:''}`}>
-              <NavLinks setActiveLink={setActiveLink} activeLink = {activeLink}/>
+              <NavLinks />
               <div className={`helper-nav ${isAtTop ? 'delay-background':'not-at-top-nav-helper'} `}></div>
             </nav>
         </div>
