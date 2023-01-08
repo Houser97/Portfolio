@@ -120,7 +120,7 @@ header a {
 }
 
 .header-backgound{
-    background-color: rgb(19, 18, 18);
+    background-color: #161b22;
     z-index: 0;
     position: absolute;
     width: 100%;
