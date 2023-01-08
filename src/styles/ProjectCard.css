@@ -134,6 +134,13 @@
 .link-project:hover > svg {
     transform: rotate(360deg) scale(1.2);
 }
+.preview-link{
+    transition: transform 250ms ease-in-out;
+}
+
+ .preview-link:hover{
+    transform: scale(1.1);
+}
 
 @media (max-width: 750px) {
     .preview-code-links{
