@@ -3,8 +3,8 @@ import MembersOnly from '../assets/images/MembersOnly2.JPG'
 import Disney from '../assets/images/DisneyOverview.JPG'
 import Waldo from '../assets/images/WhereIsOverview.JPG'
 
-import Passport from '../assets/Icons/passport.png'
-import Jwt from '../assets/Icons/jwt.png'
+import Passport from '../assets/Icons/PassportWB.png'
+import Jwt from '../assets/Icons/jwtBW.png'
 
 export const icons = [
     {
