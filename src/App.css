@@ -8,3 +8,15 @@
     flex-flow: column;
     overflow: hidden; /*Esto previene que el Header se desborde*/
 }
+
+@font-face {
+    font-family: Lemon;
+    src: url('./assets/Fonts/NexaText-Trial-Black.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url('./assets/Fonts/Nexa-Trial-Light.ttf');
+    font-weight: 700;
+}
