@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 const Footer = () => {
   return (
     <div className='app__footer'>
-      <div className='app_header-logo'>Logo</div>
+      <div className='app_header-logo'>A<sup>2</sup></div>
       <div className='contact-links'>
         <div className='email contact-link'>
           <svg className='svg-footer' viewBox="0 0 24 24">
