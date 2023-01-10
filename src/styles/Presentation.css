@@ -9,7 +9,7 @@
     font-size: 80px;
     width: 1000px;
     color: var(--home-color);
-    font-family: 'Gelasio', serif;
+    font-family: Lemon, serif;
 }
 
 .hi-card,
@@ -41,6 +41,7 @@
     transition: transform 400ms ease-in-out 2700ms, opacity 350ms ease-in-out 2700ms;
     opacity: 0;
     transform: translateY(100%);
+    font-family: NexaLight;
 }
 
 .animation-web-developer{
