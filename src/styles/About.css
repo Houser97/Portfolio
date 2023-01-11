@@ -89,13 +89,13 @@
     .about-title{
         font-size: 35px;
     }
-}
 
-@media (max-width: 460px) {
     .about-text{
         font-size: 2.5rem;
     }
+}
 
+@media (max-width: 460px) {
     .personal-data-container{
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
