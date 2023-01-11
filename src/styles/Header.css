@@ -156,7 +156,7 @@ nav .btn {
 
 .show-nav-at-top {
     /*25PX es al tanteo.*/
-    transform: translateY(calc(100% + 25px));
+    transform: translateY(calc(100% + 35px));
     z-index: 1;
 }
 
