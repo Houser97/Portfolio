@@ -4,7 +4,6 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: var(--background);
     color: white;
     width: 100%;
     font-family: 'Gelasio', serif;
