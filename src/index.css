@@ -1,10 +1,5 @@
 :root{
-  --small_diameter: 220px;
-  --medium_diameter: 240px;
-  --large_diameter: 270px;
-  --constant-x: 40px;
-  --constant-y: 60px;
-  --offset-y: 80px;
+  --offset-y: 80px; /*Se usa para dar offset a spans en About y Project para navegación*/
 
   --border-width: 20px;
   --border-color: #edc822;
