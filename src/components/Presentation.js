@@ -16,9 +16,11 @@ export const Presentation = () => {
         <div className={`app_presentation-div name-card ${mounted ? 'animation-name' : ''}`}>
             I am Arturo
         </div>
+        {/* 
         <div className={`app_presentation-div lastname-card ${mounted ? 'animation-lname' : ''}`}>
-            Rivera
+            Arturo
         </div>
+        */}
         <div className={`app_presentation-div web-developer-card ${mounted ? 'animation-web-developer' : ''}`}>
            Web Developer
         </div>

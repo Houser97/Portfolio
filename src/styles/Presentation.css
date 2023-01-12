@@ -21,6 +21,7 @@
 
 .hi-card{
     display: flex;
+    justify-content: center;
     transition: transform 800ms ease-in-out 0ms, opacity 350ms ease-in-out 0ms;
 }
 
@@ -32,13 +33,13 @@
 
 .lastname-card{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     transition: transform 800ms ease-in-out 800ms, opacity 350ms ease-in-out 1800ms;
 }
 
 .web-developer-card{
     text-align: center;
-    transition: transform 400ms ease-in-out 2700ms, opacity 350ms ease-in-out 2700ms;
+    transition: transform 400ms ease-in-out 1800ms, opacity 350ms ease-in-out 1800ms;
     opacity: 0;
     transform: translateY(100%);
     font-family: NexaLight;
