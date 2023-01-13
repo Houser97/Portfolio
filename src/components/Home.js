@@ -9,7 +9,7 @@ function Home() {
         <div className='home-subcontainer'>
           <Presentation />
         </div>
-        <img className='svg-home' src={svg}></img>
+        <img alt='svg-programming' className='svg-home' src={svg}></img>
         {/*
         <div className='border-bottom border'></div>
         <div className='border-top border'></div>
