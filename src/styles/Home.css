@@ -26,6 +26,7 @@
     height: auto;
     left: 0px;
     margin-top: 50px;
+    align-self: center;
 }
 
 @media (max-width: 900px) {
@@ -43,10 +44,10 @@
 
 @media (max-width: 670px) {
     .Home{
-        padding-top: 100px;
+        padding-top: 70px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-template-rows: minmax(300px, 400px) minmax(200px, 450px);
-        row-gap: 50px;
+        row-gap: 60px;
     }
 
     .svg-home{
@@ -54,13 +55,13 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
     .Home{
         row-gap: 0px;
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 620px) {
     .Home{
         padding-top:50px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -68,6 +69,20 @@
         row-gap: 0px;
     }
 }
+
+@media (max-width: 450px) {
+    .Home{
+        row-gap: 0px;
+    }
+
+    .Home{
+        padding-top: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: minmax(300px, 350px) minmax(300px, 350px);
+        row-gap: 0px;
+    }
+}
+
 /*
 
 .border{

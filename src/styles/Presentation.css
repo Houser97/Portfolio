@@ -70,7 +70,7 @@
 
 @media (max-width: 860px) {
     .app_presentation{
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 
@@ -83,23 +83,18 @@
 @media (max-width: 640px) {
     .app_presentation{
         justify-content: space-between;
-        padding: 30px 30px;
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 620px) {
     .app_presentation{
         font-size: 55px;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
     .app_presentation{
         font-size: 45px;
-    }
-
-    .app_presentation{
-        padding: 30px 4px;
     }
 }
 
