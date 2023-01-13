@@ -1,8 +1,10 @@
 .Home{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     position: relative;
 }
@@ -13,13 +15,12 @@
     align-items: center;
     height: 100%;
     height: 100vh;
-    padding: 0px 50px;
+    padding: 0px 10px;
     padding-top: 80px; /*Valor que controla espacio por arriba de contenedor de presentación*/
     position: relative;
 }
 
 .svg-home{
-    position: absolute;
     width: 500px;
     height: auto;
     left: 0px;
