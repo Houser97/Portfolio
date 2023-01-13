@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Home.css'
 import { Presentation } from './Presentation'
+import svg from '../assets/programming.svg'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
         <div className='home-subcontainer'>
           <Presentation />
         </div>
+        <img className='svg-home' src={svg}></img>
         {/*
         <div className='border-bottom border'></div>
         <div className='border-top border'></div>

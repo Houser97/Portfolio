@@ -18,6 +18,13 @@
     position: relative;
 }
 
+.svg-home{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: 0px;
+}
+
 /*
 
 .border{

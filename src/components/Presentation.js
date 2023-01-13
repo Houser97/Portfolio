@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/Presentation.css'
-import svg from '../assets/programming.svg'
 
 export const Presentation = () => {
     const [mounted, setMounted] = useState(false)
@@ -25,7 +24,6 @@ export const Presentation = () => {
         <div className={`app_presentation-div web-developer-card ${mounted ? 'animation-web-developer' : ''}`}>
            Web Developer
         </div>
-        <img className='svg-presentation' src={svg}></img>
     </div>
   )
 }
