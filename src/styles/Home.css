@@ -60,12 +60,12 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
     .Home{
-        padding-top:40px;
+        padding-top:50px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: minmax(300px, 400px) minmax(200px, 250px);
-        row-gap: 50px;
+        grid-template-rows: minmax(200px, 400px) minmax(200px, 400px);
+        row-gap: 0px;
     }
 }
 /*
