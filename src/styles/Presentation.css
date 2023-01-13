@@ -4,8 +4,6 @@
     display: flex; 
     flex-flow: column;
     justify-content: center;
-    border-radius: 5px;
-    padding: 10px 20px;
     font-size: 80px;
     color: var(--home-color);
     font-family: Lemon, serif;
@@ -64,9 +62,21 @@
     opacity: 1;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1200px) {
     .app_presentation{
         font-size: 60px;
+    }
+}
+
+@media (max-width: 860px) {
+    .app_presentation{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 670px) {
+    .app_presentation{
+        font-size: 70px;
     }
 }
 
