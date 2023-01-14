@@ -47,8 +47,19 @@ footer a {
     color: white;
 }
 
+footer .app_header-logo{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 @media (max-width: 520px) {
     .credits{
         font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .app__footer{
+        justify-content: center;
     }
 }
