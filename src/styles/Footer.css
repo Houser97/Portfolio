@@ -52,6 +52,14 @@ footer .app_header-logo{
     margin-left: 25px;
 }
 
+footer .svg-footer{
+    transition: transform 250ms ease-in-out;
+}
+
+footer a:hover .svg-footer{
+    transform: rotate(360deg) scale(1.2);
+}
+
 @media (max-width: 520px) {
     .credits{
         font-size: 16px;
