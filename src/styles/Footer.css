@@ -42,6 +42,11 @@
     text-decoration: none;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 520px) {
     .credits{
         font-size: 16px;
