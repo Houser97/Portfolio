@@ -43,8 +43,23 @@ export const icons = [
         isDevicon: true
     },
     {
+        classIcon: 'devicon-redux-plain',
+        text: 'Redux',
+        isDevicon: true
+    },
+    {
+        classIcon: 'devicon-tailwindcss-plain',
+        text: 'Tailwind CSS',
+        isDevicon: true
+    },
+    {
         classIcon: 'devicon-mongodb-plain',
         text: 'MongoDB',
+        isDevicon: true
+    },
+    {
+        classIcon: 'devicon-mysql-plain',
+        text: 'MYSQL',
         isDevicon: true
     },
     {
