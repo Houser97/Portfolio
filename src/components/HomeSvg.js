@@ -8,13 +8,17 @@ const HomeSvg = () => {
   const lottieContainer = useRef(null)
 
   useEffect(() => {
-    Lottie.loadAnimation({
+    const instance = Lottie.loadAnimation({
       container: lottieContainer.current,
       renderer: 'svg',
       loop: true,
       autoplay: true,
       animationData: animation,
     })
+
+    return () => {
+      instance.destroy()
+    }
   }, [])
   
   return (
