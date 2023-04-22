@@ -121,22 +121,6 @@ export const projects = [
         preview: 'https://shopping-cart-a2.onrender.com/',
     },
     {
-        title: 'My Blog-API',
-        image: BlogAPI,
-        description: 'This project takes advantage of the functionalities of the REST API concept to communicate the client (React) with the server (Node JS). In addition, it makes use of a JWT token to authenticate the blog owner and grant editing, deletion and post creation capabilities.',
-        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'CSS'],
-        github: 'https://github.com/Houser97/Blog-API',
-        preview: 'https://my-blog-api.onrender.com',
-    },
-    {
-        title: 'Members Only',
-        image: MembersOnly,
-        description: "The application allows users to read messages from others, where message information (creation date and author) is presented according to the user's role. When creating an account it is possible to create messages that will appear in the main window, and for those who enter the secret code will have access to more information about the message. The application uses Passport to authenticate users, who are assigned a specific role that is used by the application to conditionally render elements. On the other hand, EJS is used instead of React to create the frontend.",
-        technologies: ['MongoDB', 'Express.js', 'Node.js', 'Passport', 'CSS'],
-        github: 'https://github.com/Houser97/members-only',
-        preview: 'https://members-only-r266.onrender.com',
-    },
-    {
         title: 'Disney Replica',
         image: Disney,
         description: "The application allows users to create an account through Passport, where the SALTING feature is added to add protection to the passwords entered. Users can choose a profile picture from the images provided. Also, they have the possibility to update this profile picture at any time. On the other hand, the WATCHLIST section shows the movies or series that users have added to their list, which indicate with a checkmark SVG that the card has been added. Users can also remove movies from this section by clicking on the SVG. In total about 21 images were used.",
@@ -151,5 +135,21 @@ export const projects = [
         technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS'],
         github: 'https://github.com/Houser97/Where-is-walso-V2',
         preview: 'https://whereisgame.onrender.com/',
+    },
+    {
+        title: 'My Blog-API',
+        image: BlogAPI,
+        description: 'This project takes advantage of the functionalities of the REST API concept to communicate the client (React) with the server (Node JS). In addition, it makes use of a JWT token to authenticate the blog owner and grant editing, deletion and post creation capabilities.',
+        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'CSS'],
+        github: 'https://github.com/Houser97/Blog-API',
+        preview: 'https://my-blog-api.onrender.com',
+    },
+    {
+        title: 'Members Only',
+        image: MembersOnly,
+        description: "The application allows users to read messages from others, where message information (creation date and author) is presented according to the user's role. When creating an account it is possible to create messages that will appear in the main window, and for those who enter the secret code will have access to more information about the message. The application uses Passport to authenticate users, who are assigned a specific role that is used by the application to conditionally render elements. On the other hand, EJS is used instead of React to create the frontend.",
+        technologies: ['MongoDB', 'Express.js', 'Node.js', 'Passport', 'CSS'],
+        github: 'https://github.com/Houser97/members-only',
+        preview: 'https://members-only-r266.onrender.com',
     }
 ]
