@@ -36,6 +36,7 @@
     font-size: 18px;
     border-radius: 10px;
     border: 2px solid white;
+    white-space: pre-line; /*Ayuda a que secuencias de escape como  \t o \n sea reconocida en strings*/
 }
 
 @media (max-width: 500px) {
