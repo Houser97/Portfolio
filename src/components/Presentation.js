@@ -22,7 +22,7 @@ export const Presentation = () => {
         </div>
         */}
         <div className={`app_presentation-div web-developer-card ${mounted ? 'animation-web-developer' : ''}`}>
-           Web Developer
+           Full Stack Developer
         </div>
     </div>
   )
