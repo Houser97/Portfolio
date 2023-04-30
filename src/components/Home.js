@@ -6,14 +6,8 @@ import HomeSvg from './HomeSvg'
 function Home() {
   return (
     <div className='Home' id='home'>
-        <div className='home-subcontainer'>
-          <Presentation />
-        </div>
+        <Presentation />
         <HomeSvg />
-        {/*
-        <div className='border-bottom border'></div>
-        <div className='border-top border'></div>
-        */}
     </div>
   )
 }
