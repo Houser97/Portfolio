@@ -20,7 +20,7 @@ export const icons = [
     },
     {
         classIcon: 'devicon-javascript-plain',
-        text: 'javascript',
+        text: 'JavaScript',
         isDevicon: true
     },
     {
@@ -49,6 +49,11 @@ export const icons = [
         isDevicon: true
     },
     {
+        classIcon: 'devicon-typescript-plain',
+        text: 'TypeScript',
+        isDevicon: true
+    },
+    {
         classIcon: 'devicon-tailwindcss-plain',
         text: 'Tailwind CSS',
         isDevicon: true
@@ -60,7 +65,7 @@ export const icons = [
     },
     {
         classIcon: 'devicon-mysql-plain',
-        text: 'MYSQL',
+        text: 'MySQL',
         isDevicon: true
     },
     {
@@ -124,7 +129,7 @@ export const projects = [
         title: 'Disney Replica',
         image: Disney,
         description: "The application allows users to create an account through Passport, where the SALTING feature is added to add protection to the passwords entered. Users can choose a profile picture from the images provided. Also, they have the possibility to update this profile picture at any time. On the other hand, the WATCHLIST section shows the movies or series that users have added to their list, which indicate with a checkmark SVG that the card has been added. Users can also remove movies from this section by clicking on the SVG. In total about 21 images were used.",
-        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Passport', 'CSS'],
+        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Passport', 'CSS', 'TypeScript'],
         github: 'https://github.com/Houser97/Disney-V2',
         preview: 'https://disneyplus-54yk.onrender.com/',
     },
