@@ -3,213 +3,44 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: minmax(400px, 1fr) minmax(400px, 500px);
+    grid-template-rows: minmax(0px, max-content);
     column-gap: 30px;
     justify-content: center;
+    align-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
     padding: 0px 100px;
-}
-
-.home-subcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px; /*Valor que controla espacio por arriba de contenedor de presentación*/
-    position: relative;
+    padding-top: 70px;
 }
 
 .svg-home{
     width: 100%;
     height: auto;
     left: 0px;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     align-self: center;
 }
 
 @media (max-width: 900px) {
     .Home{
-        padding: 0px 30px;
+        padding: 0px 20px;
+        padding-top: 80px;
     }
 }
 
 @media (max-width: 850px) {
     .Home{
-        padding: 0px 20px;
         grid-template-columns: minmax(300px, 1fr) minmax(330px, 500px);
     }
 }
 
 @media (max-width: 670px) {
     .Home{
-        padding-top: 70px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: minmax(300px, 400px) minmax(200px, 450px);
-        row-gap: 60px;
-    }
-
-    .svg-home{
-        margin-top: 0px;
-    }
-}
-
-@media (max-width: 480px) {
-    .Home{
+        padding: 0px 10px;
+        padding-top: 100px;
+        grid-template-columns: minmax(300px, 1fr);
+        grid-template-rows: minmax(200px, 440px) minmax(200px, max-content);
         row-gap: 0px;
     }
 }
-
-@media (max-width: 620px) {
-    .Home{
-        padding-top:50px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: minmax(200px, 400px) minmax(200px, 400px);
-        row-gap: 0px;
-    }
-}
-
-@media (max-width: 450px) {
-    .Home{
-        row-gap: 0px;
-    }
-
-    .Home{
-        padding-top: 50px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-template-rows: minmax(300px, 350px) minmax(300px, 350px);
-        row-gap: 0px;
-    }
-}
-
-/*
-
-.border{
-    position: absolute;
-}
-
-.border-bottom{
-    bottom: 0px;
-    right: 0px;
-    width: 300px;
-    height: 300px;
-    border-bottom: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) var(--border-color) solid;
-}
-
-.border-bottom::before{
-    content: '';
-    position: absolute;
-    bottom: calc(var(--border-width)*(-1));
-    left: 0px;
-    border-top: var(--border-width) var(--background) solid;
-    border-right: var(--border-width) var(--border-color) solid;
-}
-
-.border-bottom::after{
-    content: '';
-    position: absolute;
-    top: 0px;
-    right: calc(var(--border-width)*(-1));
-    border-top: var(--border-width) var(--background) solid;
-    border-right: var(--border-width) var(--border-color) solid;
-}
-
-.border-top{
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 300px;
-    border-top: var(--border-width) var(--border-color) solid;
-    border-left: var(--border-width) var(--border-color) solid;
-}
-
-.border-top::before{
-    content: '';
-    position: absolute;
-    bottom: 0px;
-    left: calc(var(--border-width)*(-1));
-    border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) var(--background) solid;
-}
-
-.border-top::after{
-    content: '';
-    position: absolute;
-    top: calc(var(--border-width)*(-1));
-    right: 0px;
-    border-top: var(--border-width) var(--border-color) solid;
-    border-right: var(--border-width) var(--background) solid;
-}
-
-@media (max-width: 680px) {
-    .border-bottom{
-        border-bottom: var(--border-width-medium) var(--border-color) solid;
-        border-right: var(--border-width-medium) var(--border-color) solid;
-    }
-    
-    .border-bottom::before{
-        bottom: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--background) solid;
-        border-right: var(--border-width-medium) var(--border-color) solid;
-    }
-    
-    .border-bottom::after{
-        right: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--background) solid;
-        border-right: var(--border-width-medium) var(--border-color) solid;
-    }
-    
-    .border-top{
-        border-top: var(--border-width-medium) var(--border-color) solid;
-        border-left: var(--border-width-medium) var(--border-color) solid;
-    }
-    
-    .border-top::before{
-        left: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--border-color) solid;
-        border-right: var(--border-width-medium) var(--background) solid;
-    }
-    
-    .border-top::after{
-        top: calc(var(--border-width-medium)*(-1));
-        border-top: var(--border-width-medium) var(--border-color) solid;
-        border-right: var(--border-width-medium) var(--background) solid;
-    }
-}
-
-@media (max-width: 480px) {
-    .border-bottom{
-        border-bottom: var(--border-width-small) var(--border-color) solid;
-        border-right: var(--border-width-small) var(--border-color) solid;
-    }
-    
-    .border-bottom::before{
-        bottom: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--background) solid;
-        border-right: var(--border-width-small) var(--border-color) solid;
-    }
-    
-    .border-bottom::after{
-        right: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--background) solid;
-        border-right: var(--border-width-small) var(--border-color) solid;
-    }
-    
-    .border-top{
-        border-top: var(--border-width-small) var(--border-color) solid;
-        border-left: var(--border-width-small) var(--border-color) solid;
-    }
-    
-    .border-top::before{
-        left: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--border-color) solid;
-        border-right: var(--border-width-small) var(--background) solid;
-    }
-    
-    .border-top::after{
-        top: calc(var(--border-width-small)*(-1));
-        border-top: var(--border-width-small) var(--border-color) solid;
-        border-right: var(--border-width-small) var(--background) solid;
-    }
-}
-*/
