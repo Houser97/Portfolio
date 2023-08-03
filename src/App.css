@@ -6,6 +6,7 @@
     display: flex;
     width: 100%;
     flex-flow: column;
+    align-items: center;
     overflow: hidden; /*Esto previene que el Header se desborde*/
 }
 
