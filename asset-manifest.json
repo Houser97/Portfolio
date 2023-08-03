@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bf4bb9fe.css",
-    "main.js": "/Portfolio/static/js/main.c482f69d.js",
+    "main.css": "/Portfolio/static/css/main.8fcbde50.css",
+    "main.js": "/Portfolio/static/js/main.2648e763.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NexaText-Trial-Black.ttf": "/Portfolio/static/media/NexaText-Trial-Black.cd2a2c1eebac8efc5d6c.ttf",
     "static/media/Nexa-Trial-Light.ttf": "/Portfolio/static/media/Nexa-Trial-Light.4c6a54c92a1649d378fa.ttf",
@@ -9,16 +9,17 @@
     "static/media/Shopping.PNG": "/Portfolio/static/media/Shopping.754e5def4fc626cd0dc0.PNG",
     "static/media/BlogAPI2.JPG": "/Portfolio/static/media/BlogAPI2.cc1d32c56d5d2faf194e.JPG",
     "static/media/WhereIsOverview.JPG": "/Portfolio/static/media/WhereIsOverview.dfe7225d79208e80616f.JPG",
+    "static/media/WeatherAppSm.PNG": "/Portfolio/static/media/WeatherAppSm.9ccfecf6cccd14eb0a9e.PNG",
     "static/media/DisneyOverview.JPG": "/Portfolio/static/media/DisneyOverview.3cba047dcb87879aeae1.JPG",
     "static/media/MembersOnly2.JPG": "/Portfolio/static/media/MembersOnly2.2613f4d58d0171fc6cd9.JPG",
     "static/media/PassportWB.png": "/Portfolio/static/media/PassportWB.fc354840569237b0f3f6.png",
     "index.html": "/Portfolio/index.html",
-    "main.bf4bb9fe.css.map": "/Portfolio/static/css/main.bf4bb9fe.css.map",
-    "main.c482f69d.js.map": "/Portfolio/static/js/main.c482f69d.js.map",
+    "main.8fcbde50.css.map": "/Portfolio/static/css/main.8fcbde50.css.map",
+    "main.2648e763.js.map": "/Portfolio/static/js/main.2648e763.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf4bb9fe.css",
-    "static/js/main.c482f69d.js"
+    "static/css/main.8fcbde50.css",
+    "static/js/main.2648e763.js"
   ]
 }
