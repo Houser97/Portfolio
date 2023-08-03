@@ -19,9 +19,6 @@ const Footer = () => {
           Houser97
         </a>
       </div>
-      <div className='credits'>
-        The design of the project cards was inspired by the developer: <a href='https://github.com/Seb-GRAF'>Seb-GRAF</a>
-      </div>
     </footer>
   )
 }
