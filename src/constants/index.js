@@ -3,6 +3,7 @@ import MembersOnly from '../assets/images/MembersOnly2.JPG'
 import Disney from '../assets/images/DisneyOverview.JPG'
 import Waldo from '../assets/images/WhereIsOverview.JPG'
 import Shopping from '../assets/images/Shopping.PNG'
+import Weather from '../assets/images/WeatherAppSm.PNG'
 
 import Passport from '../assets/Icons/PassportWB.png'
 import Jwt from '../assets/Icons/jwtBW.png'
@@ -111,6 +112,18 @@ export const icons = [
 ]
 
 export const projects = [
+    {
+        title: `Weather App React And React Native`,
+        image: Weather,
+        description: `This project showcases weather-related information sourced from the OpenWeatherMap API, which is based on the user's specified city. The application provides essential weather data, including: Temperature, available in both Celsius and Fahrenheit, Humidity levels, Atmospheric pressure, Wind speed, Sunrise and Sunset time, Feels Like Temperature, Min & Max Temperature,
+        Current UV index. For this project, two versions were developed:
+
+        \u2022    The mobile version using React Native, created with expo
+        \u2022    The website version using React.`,
+        technologies: ['CSS','Redux','React', 'TypeScript'],
+        github: 'https://github.com/Houser97/Weather-App',
+        preview: 'https://houser97.github.io/Weather-App/',
+    },
     {
         title: 'Shopping Cart',
         image: Shopping,
