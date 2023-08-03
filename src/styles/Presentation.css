@@ -5,7 +5,7 @@
     flex-flow: column;
     justify-content: center;
     align-self: center;
-    font-size: 60px;
+    font-size: clamp(2.375rem, 2.0833rem + 1.5556vw, 5rem);
     color: var(--home-color);
     font-family: Lemon, serif;
 }
