@@ -33,6 +33,15 @@
     .app__project-subcontainer{
         grid-template-columns: minmax(200px, 1fr);
         grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .app__project-card{
+        align-items: center;
+        justify-content: center;
     }
 
     .project-img-container{
