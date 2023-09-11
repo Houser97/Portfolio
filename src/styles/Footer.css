@@ -18,6 +18,10 @@
     margin-right: 8px;
 }
 
+.svg-footer svg {
+    fill: white;
+}
+
 .contact-link{
     display: flex;
     align-items: center;
