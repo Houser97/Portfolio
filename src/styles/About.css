@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .app__about{
     display: flex;
@@ -6,10 +6,11 @@
     align-items: center;
     color: white;
     width: 100%;
-    font-family: 'Gelasio', serif;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     padding: var(--padding-main-containers);
     min-height: 100vh;
+    font-weight: 100;
 }
 
 
@@ -38,6 +39,7 @@
     column-gap: 60px;
     padding: 0px 20px; /*Padding diferente al del título*/
     flex: 1;
+    font-family: 'Roboto Slab', serif;
 }
 
 .technologies-container{
