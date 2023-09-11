@@ -50,6 +50,16 @@ export const icons = [
         isDevicon: true
     },
     {
+        classIcon: 'devicon-flutter-plain',
+        text: 'Flutter',
+        isDevicon: true
+    },
+    {
+        classIcon: 'devicon-socketio-original',
+        text: 'Socket IO',
+        isDevicon: true
+    },
+    {
         classIcon: 'devicon-typescript-plain',
         text: 'TypeScript',
         isDevicon: true
@@ -77,16 +87,6 @@ export const icons = [
     {
         classIcon: 'devicon-webpack-plain',
         text: 'Webpack',
-        isDevicon: true
-    },
-    {
-        classIcon: 'devicon-npm-original-wordmark',
-        text: 'npm',
-        isDevicon: true
-    },
-    {
-        classIcon: 'devicon-heroku-plain',
-        text: 'Heroku',
         isDevicon: true
     },
     {
