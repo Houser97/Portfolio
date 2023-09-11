@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8fcbde50.css",
-    "main.js": "/Portfolio/static/js/main.2648e763.js",
+    "main.css": "/Portfolio/static/css/main.85e324e7.css",
+    "main.js": "/Portfolio/static/js/main.6bdf99e6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NexaText-Trial-Black.ttf": "/Portfolio/static/media/NexaText-Trial-Black.cd2a2c1eebac8efc5d6c.ttf",
     "static/media/Nexa-Trial-Light.ttf": "/Portfolio/static/media/Nexa-Trial-Light.4c6a54c92a1649d378fa.ttf",
@@ -14,12 +14,12 @@
     "static/media/MembersOnly2.JPG": "/Portfolio/static/media/MembersOnly2.2613f4d58d0171fc6cd9.JPG",
     "static/media/PassportWB.png": "/Portfolio/static/media/PassportWB.fc354840569237b0f3f6.png",
     "index.html": "/Portfolio/index.html",
-    "main.8fcbde50.css.map": "/Portfolio/static/css/main.8fcbde50.css.map",
-    "main.2648e763.js.map": "/Portfolio/static/js/main.2648e763.js.map",
+    "main.85e324e7.css.map": "/Portfolio/static/css/main.85e324e7.css.map",
+    "main.6bdf99e6.js.map": "/Portfolio/static/js/main.6bdf99e6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fcbde50.css",
-    "static/js/main.2648e763.js"
+    "static/css/main.85e324e7.css",
+    "static/js/main.6bdf99e6.js"
   ]
 }
