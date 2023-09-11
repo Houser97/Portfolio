@@ -125,6 +125,14 @@ export const projects = [
         preview: 'https://houser97.github.io/Weather-App/',
     },
     {
+        title: 'Where is Waldo',
+        image: Waldo,
+        description: "This application is based on the game Where's Waldo, which consists of finding certain characters in an image full of various elements. The application has a timer to measure the time it takes users to find the three characters. The accumulated time is saved in the database along with a username. On the other hand, the game has responsive qualities, since the image can be adapted to different screen sizes without losing its radius of appearance.",
+        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS'],
+        github: 'https://github.com/Houser97/Where-is-walso-V2',
+        preview: 'https://whereisgame.onrender.com/',
+    },
+    {
         title: 'Shopping Cart',
         image: Shopping,
         description: `The project simulates a Shopping Cart page with the following features:
@@ -145,14 +153,6 @@ export const projects = [
         technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Passport', 'CSS', 'TypeScript'],
         github: 'https://github.com/Houser97/Disney-V2',
         preview: 'https://disneyplus-54yk.onrender.com/',
-    },
-    {
-        title: 'Where is Waldo',
-        image: Waldo,
-        description: "This application is based on the game Where's Waldo, which consists of finding certain characters in an image full of various elements. The application has a timer to measure the time it takes users to find the three characters. The accumulated time is saved in the database along with a username. On the other hand, the game has responsive qualities, since the image can be adapted to different screen sizes without losing its radius of appearance.",
-        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS'],
-        github: 'https://github.com/Houser97/Where-is-walso-V2',
-        preview: 'https://whereisgame.onrender.com/',
     },
     {
         title: 'My Blog-API',
