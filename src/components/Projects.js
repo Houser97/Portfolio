@@ -10,7 +10,7 @@ const Projects = () => {
     <div className='app__projects'>
         <span className='project-helper-header' id='projects'></span>
         <SectionTitle title={'Projects'} />
-        <div className='projects-note'>My frontend projects have been deployed on <b>GitHub Pages</b>. As for the full-stack projects, a free-tier plan of <b>Render</b> was employed, so the live preview may take a few seconds while the server starts up.</div>
+        <div className='projects-note'>My frontend projects have been deployed on <b>GitHub Pages</b>. As for the full-stack projects, a free-tier <b>Render</b> plan was employed, so the live preview may take a few seconds while the server starts up.</div>
         <div className='app__projects-subcontainer'>
             {projects.map((project, index) => {
               return(
