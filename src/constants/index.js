@@ -1,9 +1,8 @@
-import BlogAPI from '../assets/images/BlogAPI2.JPG'
-import MembersOnly from '../assets/images/MembersOnly2.JPG'
 import Disney from '../assets/images/DisneyOverview.JPG'
 import Waldo from '../assets/images/WhereIsOverview.JPG'
 import Shopping from '../assets/images/Shopping.PNG'
 import Weather from '../assets/images/WeatherAppSm.PNG'
+import InTouchIo from '../assets/images/InTouchIo.jpg'
 
 import Passport from '../assets/Icons/PassportWB.png'
 import Jwt from '../assets/Icons/jwtBW.png'
@@ -113,6 +112,17 @@ export const icons = [
 
 export const projects = [
     {
+        title: 'In Touch Io - Messaging App',
+        image: InTouchIo,
+        description: `This project showcases weather-related information sourced from the OpenWeatherMap API, which is based on the user's specified city. The application provides essential weather data, including: Temperature (available in both Celsius and Fahrenheit), Humidity levels, Atmospheric pressure, Wind speed, Sunrise and Sunset time, Feels Like Temperature, Min & Max Temperature, Current UV index. For this project, two versions were developed:
+
+        \u2022    The mobile version using React Native, created with expo
+        \u2022    The website version using React.`,
+        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS', 'TypeScript', 'Socket IO'],
+        github: 'https://github.com/Houser97/In-Touch-IO',
+        preview: 'https://in-touch-io.onrender.com',
+    },
+    {
         title: `Weather App React And React Native`,
         image: Weather,
         description: `This project showcases weather-related information sourced from the OpenWeatherMap API, which is based on the user's specified city. The application provides essential weather data, including: Temperature (available in both Celsius and Fahrenheit), Humidity levels, Atmospheric pressure, Wind speed, Sunrise and Sunset time, Feels Like Temperature, Min & Max Temperature, Current UV index. For this project, two versions were developed:
@@ -154,21 +164,5 @@ export const projects = [
         technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Passport', 'CSS', 'TypeScript'],
         github: 'https://github.com/Houser97/Disney-V2',
         preview: 'https://disneyplus-54yk.onrender.com/',
-    },
-    {
-        title: 'My Blog-API',
-        image: BlogAPI,
-        description: 'This project leverages the capabilities of the REST API concept to establish communication between the client (React) and the server (Node.js). Additionally, it implements a JWT token system to authenticate the blog owner, providing them with the authority to edit, delete, and create posts.',
-        technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'CSS'],
-        github: 'https://github.com/Houser97/Blog-API',
-        preview: 'https://my-blog-api.onrender.com',
-    },
-    {
-        title: 'Members Only',
-        image: MembersOnly,
-        description: "The application allows users to read messages from others, where message information (creation date and author) is presented according to the user's role. When creating an account it is possible to create messages that will appear in the main window, and for those who enter the secret code will have access to more information about the message. The application uses Passport to authenticate users, who are assigned a specific role that is used by the application to conditionally render elements. On the other hand, EJS is used instead of React to create the frontend.",
-        technologies: ['MongoDB', 'Express.js', 'Node.js', 'Passport', 'CSS'],
-        github: 'https://github.com/Houser97/members-only',
-        preview: 'https://members-only-r266.onrender.com',
     }
 ]
