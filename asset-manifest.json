@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.836f4a44.css",
-    "main.js": "/Portfolio/static/js/main.aa94da66.js",
+    "main.js": "/Portfolio/static/js/main.7a7b01d8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NexaText-Trial-Black.ttf": "/Portfolio/static/media/NexaText-Trial-Black.cd2a2c1eebac8efc5d6c.ttf",
     "static/media/Nexa-Trial-Light.ttf": "/Portfolio/static/media/Nexa-Trial-Light.4c6a54c92a1649d378fa.ttf",
@@ -14,11 +14,11 @@
     "static/media/PassportWB.png": "/Portfolio/static/media/PassportWB.fc354840569237b0f3f6.png",
     "index.html": "/Portfolio/index.html",
     "main.836f4a44.css.map": "/Portfolio/static/css/main.836f4a44.css.map",
-    "main.aa94da66.js.map": "/Portfolio/static/js/main.aa94da66.js.map",
+    "main.7a7b01d8.js.map": "/Portfolio/static/js/main.7a7b01d8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.836f4a44.css",
-    "static/js/main.aa94da66.js"
+    "static/js/main.7a7b01d8.js"
   ]
 }
