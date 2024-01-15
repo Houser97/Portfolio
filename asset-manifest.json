@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.836f4a44.css",
+    "main.css": "/Portfolio/static/css/main.1a4ed5ff.css",
     "main.js": "/Portfolio/static/js/main.7a7b01d8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/NexaText-Trial-Black.ttf": "/Portfolio/static/media/NexaText-Trial-Black.cd2a2c1eebac8efc5d6c.ttf",
@@ -13,12 +13,12 @@
     "static/media/DisneyOverview.JPG": "/Portfolio/static/media/DisneyOverview.3cba047dcb87879aeae1.JPG",
     "static/media/PassportWB.png": "/Portfolio/static/media/PassportWB.fc354840569237b0f3f6.png",
     "index.html": "/Portfolio/index.html",
-    "main.836f4a44.css.map": "/Portfolio/static/css/main.836f4a44.css.map",
+    "main.1a4ed5ff.css.map": "/Portfolio/static/css/main.1a4ed5ff.css.map",
     "main.7a7b01d8.js.map": "/Portfolio/static/js/main.7a7b01d8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.836f4a44.css",
+    "static/css/main.1a4ed5ff.css",
     "static/js/main.7a7b01d8.js"
   ]
 }
