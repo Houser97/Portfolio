@@ -122,17 +122,6 @@ export const projects = [
         preview: 'https://in-touch-io.onrender.com',
     },
     {
-        title: `Weather App React And React Native`,
-        image: Weather,
-        description: `This project showcases weather-related information sourced from the OpenWeatherMap API, which is based on the user's specified city. The application provides essential weather data, including: Temperature (available in both Celsius and Fahrenheit), Humidity levels, Atmospheric pressure, Wind speed, Sunrise and Sunset time, Feels Like Temperature, Min & Max Temperature, and Current UV index. For this project, two versions were developed:
-
-        \u2022    The mobile version is built with React Native and created using Expo. The link to it can be found in the README file of the repository.
-        \u2022    The website version using React.`,
-        technologies: ['CSS','Redux','React', 'TypeScript'],
-        github: 'https://github.com/Houser97/Weather-App',
-        preview: 'https://houser97.github.io/Weather-App/',
-    },
-    {
         title: 'Where is Waldo',
         image: Waldo,
         description: `This application is inspired by the popular game 'Where's Waldo,' where the challenge lies in spotting specific characters within a crowded image filled with various elements. 
@@ -141,6 +130,17 @@ export const projects = [
         technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'CSS'],
         github: 'https://github.com/Houser97/Where-is-walso-V2',
         preview: 'https://whereisgame.onrender.com/',
+    },
+    {
+        title: `Weather App React And React Native`,
+        image: Weather,
+        description: `This project showcases weather-related information sourced from the OpenWeatherMap API, which is based on the user's specified city. The application provides essential weather data, including: Temperature (available in both Celsius and Fahrenheit), Humidity levels, Atmospheric pressure, Wind speed, Sunrise and Sunset time, Feels Like Temperature, Min & Max Temperature, and Current UV index. For this project, two versions were developed:
+
+        \u2022    The mobile version is built with React Native and created using Expo. The link to it can be found in the README file of the repository.
+        \u2022    The website version using React.`,
+        technologies: ['CSS', 'Redux', 'React', 'TypeScript'],
+        github: 'https://github.com/Houser97/Weather-App',
+        preview: 'https://houser97.github.io/Weather-App/',
     },
     {
         title: 'Shopping Cart',
@@ -152,7 +152,7 @@ export const projects = [
         \u2022 Items can be added to the user's cart, displaying the total amount in the cart and the price to be paid.\t
         
         User registration is facilitated through the use of Node.js and MongoDB as the server and database technologies. Additionally, Redux Toolkit has been implemented for efficient global state management, while Tailwind CSS has been employed for styling the application.`,
-        technologies: ['Tailwind CSS','Redux','MongoDB', 'Express.js', 'React', 'Node.js', 'Passport'],
+        technologies: ['Tailwind CSS', 'Redux', 'MongoDB', 'Express.js', 'React', 'Node.js', 'Passport'],
         github: 'https://github.com/Houser97/Shopping-Cart',
         preview: 'https://shopping-cart-a2.onrender.com/',
     },
