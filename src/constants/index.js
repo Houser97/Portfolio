@@ -94,6 +94,16 @@ export const icons = [
         isDevicon: true
     },
     {
+        classIcon: 'devicon-csharp-plain',
+        text: 'C#',
+        isDevicon: true
+    },
+    {
+        classIcon: 'devicon-dotnetcore-plain',
+        text: 'ASP.NET Core',
+        isDevicon: true
+    },
+    {
         classIcon: 'devicon-python-plain',
         text: 'Python',
         isDevicon: true
