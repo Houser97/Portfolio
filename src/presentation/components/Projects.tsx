@@ -1,16 +1,13 @@
-import { useEffect } from 'react'
 import '../styles/Projects.css'
 import ProjectCard from './ProjectCard'
 import { projects } from '../../assets/constants'
 import SectionTitle from './SectionTitle'
 import gsap from 'gsap'
-import useWindowSize from '../hooks/useWindowSize'
+import { useGSAP } from '@gsap/react'
 
 const Projects = () => {
 
-  const { isMobile } = useWindowSize(700);
-
-  useEffect(()=> {
+  useGSAP(()=> {
     gsap.set('.projects-note', {opacity: 0, y:50});
     gsap.to('.projects-note', {
       duration: 1,
@@ -22,7 +19,7 @@ const Projects = () => {
         start: 'top 80%',
       }
     })
-  }, [isMobile]);
+  });
 
   return (
     <div className='app__projects'>

@@ -31,6 +31,13 @@
     margin-bottom: 30px;
 }
 
+@media (min-width: 800px) {
+    .projects-note{
+        width: 90%;
+    }        
+}
+
+
 @media (max-width: 1200px) {
     .app__projects-subcontainer{
         width: 100%;

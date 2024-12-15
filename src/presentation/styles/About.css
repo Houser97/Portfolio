@@ -63,6 +63,12 @@
     line-height: 32px;
 }
 
+@media (min-width: 100px) {
+    .personal-data-container{
+        width: 90%;
+    }       
+}
+
 
 @media (min-width: 1400px) {
     .app__about{
@@ -90,7 +96,7 @@
 
     .personal-data-container{
         column-gap: 60px;
-        padding: 0px; /*Padding diferente al del título*/
+        padding: 0 20px; /*Padding diferente al del título*/
     }
 
     .app__about{

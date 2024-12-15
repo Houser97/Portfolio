@@ -1,16 +1,14 @@
-import { useEffect } from 'react'
 import '../styles/About.css'
 import { icons } from '../../assets/constants'
 import TechCard from './TechCard'
 import SectionTitle from './SectionTitle'
 import gsap from 'gsap'
-import useWindowSize from '../hooks/useWindowSize'
+import { useGSAP } from '@gsap/react'
+
 
 export const About = () => {
 
-  const { isMobile } = useWindowSize(700);
-
-  useEffect(() => {
+  useGSAP(() => {
     gsap.set('.personal-data-container', { opacity: 0, y: 50 });
 
     gsap.to('.personal-data-container', {
@@ -23,8 +21,8 @@ export const About = () => {
         start: 'top 80%',
       }
     })
-  
-  }, [isMobile])
+
+  })
 
 
   return (

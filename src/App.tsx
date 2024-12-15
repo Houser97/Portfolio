@@ -27,13 +27,13 @@ function App() {
     }
     
     gsap.utils.toArray('.project-description').forEach(project => {
-      gsap.set(project, {
+      gsap.set(project as HTMLElement, {
           y: cardYValues.yStart,
       });
 
-      gsap.to(project, {
+      gsap.to(project as HTMLElement, {
         scrollTrigger: {
-          trigger: project,
+          trigger: project as HTMLElement,
           start: 'top 100%',
           end: '10%',
           scrub: 1,
@@ -43,13 +43,13 @@ function App() {
     });
 
     gsap.utils.toArray('.project-card-decoration').forEach(decoration => {
-      gsap.set(decoration, {
+      gsap.set(decoration as HTMLElement, {
           y: decorationYValues.yStart,
       });
 
-      gsap.to(decoration, {
+      gsap.to(decoration as HTMLElement, {
         scrollTrigger:{
-          trigger: decoration,
+          trigger: decoration as HTMLElement,
           start: 'top bottom',
           end: 'bottom top',
           scrub: 1,
@@ -59,13 +59,13 @@ function App() {
     });
 
     gsap.utils.toArray('.project-card-decoration-reversed').forEach(decoration => {
-      gsap.set(decoration, {
+      gsap.set(decoration as HTMLElement, {
         y: decorationYValues.yStart,
       });
 
-      gsap.to(decoration, {
+      gsap.to(decoration as HTMLElement, {
         scrollTrigger: {
-          trigger: decoration,
+          trigger: decoration as HTMLElement,
           start: 'top bottom',
           end: 'bottom top',
           scrub: 1
@@ -75,13 +75,13 @@ function App() {
     });
 
     gsap.utils.toArray('.preview-code-links').forEach(decoration => {
-      gsap.set(decoration, {
+      gsap.set(decoration as HTMLElement, {
         y: '0%',
       });
 
-      gsap.to(decoration, {
+      gsap.to(decoration as HTMLElement, {
         scrollTrigger: {
-          trigger: decoration,
+          trigger: decoration as HTMLElement,
           start: '-200% bottom',
           end: '-300px top',
           scrub: 1,
@@ -91,13 +91,13 @@ function App() {
     });
 
     gsap.utils.toArray('.color-line-left').forEach(project => {
-      gsap.set(project, {
+      gsap.set(project as HTMLElement, {
           x: '-100%',
       });
 
-      gsap.to(project, {
+      gsap.to(project as HTMLElement, {
         scrollTrigger: {
-          trigger: project,
+          trigger: project as HTMLElement,
           start: 'top bottom',
           end: 'bottom 15%',
           scrub: 1,
@@ -107,13 +107,13 @@ function App() {
   });
 
     gsap.utils.toArray('.color-line-right').forEach(project => {
-        gsap.set(project, {
+        gsap.set(project as HTMLElement, {
             x: '100%',
         });
     
-        gsap.to(project, {
+        gsap.to(project as HTMLElement, {
             scrollTrigger: {
-            trigger: project,
+            trigger: project as HTMLElement,
             start: '-70px bottom',
             end: '-70px 15%',
             scrub: 1,
