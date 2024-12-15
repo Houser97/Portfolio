@@ -1,7 +1,12 @@
-import React from 'react'
 import '../styles/TechCard.css'
 
-const TechCard = ({classIcon, text, isDevicon}) => {
+interface Props {
+  classIcon: string;
+  text: string;
+  isDevicon: boolean
+}
+
+const TechCard = ({classIcon, text, isDevicon}: Props) => {
   return (
     <div className='app__TechCard'>
         {isDevicon ? 

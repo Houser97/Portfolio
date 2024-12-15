@@ -1,7 +1,10 @@
-import React from 'react'
 import '../styles/SectionTitle.css'
 
-const SectionTitle = ({title}) => {
+interface Props {
+  title: string
+}
+
+const SectionTitle = ({title}: Props) => {
   return (
     <h1 className='app__section-title'>
         <span className='color-line-left color-line'></span>

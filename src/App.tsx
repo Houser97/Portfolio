@@ -1,13 +1,13 @@
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import { About } from './components/About';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-import { useEffect, useState } from 'react';
-import useWindowSize from './hooks/useWindowSize'
+import Header from './presentation/components/Header';
+import Home from './presentation/components/Home';
+import { About } from './presentation/components/About';
+import Projects from './presentation/components/Projects';
+import Footer from './presentation/components/Footer';
+import { useEffect } from 'react';
+import useWindowSize from './presentation/hooks/useWindowSize'
 
 gsap.registerPlugin(ScrollTrigger)
 

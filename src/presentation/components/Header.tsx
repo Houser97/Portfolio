@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import '../styles/Header.css'
 import NavLinks from './NavLinks'
 import ToggleButton from './ToggleButton'

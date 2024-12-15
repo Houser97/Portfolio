@@ -1,7 +1,12 @@
-import React from 'react'
+import { SetStateAction } from 'react'
 import '../styles/ToggleButton.css'
 
-const ToggleButton = ({toggle, setToggle}) => {
+interface Props {
+  toggle: boolean,
+  setToggle: React.Dispatch<SetStateAction<boolean>>
+}
+
+const ToggleButton = ({toggle, setToggle}: Props) => {
   return (
     <div className='app_header-btn-toggle' onClick={() => setToggle(prev => !prev)}>
         <span className={`upper-line-nav ${toggle ? 'upper-animate return-animation' : 'line-navbar'}`}></span>

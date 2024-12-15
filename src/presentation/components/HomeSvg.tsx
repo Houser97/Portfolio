@@ -1,13 +1,14 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import '../styles/Home.css'
 import Lottie from 'lottie-web'
-import animation from '../assets/Lottie/animation.json'
+import animation from '../../assets/Lottie/animation.json'
 
 const HomeSvg = () => {
 
   const lottieContainer = useRef(null)
 
   useEffect(() => {
+    if(!lottieContainer.current) return;
     const instance = Lottie.loadAnimation({
       container: lottieContainer.current,
       renderer: 'svg',
@@ -19,7 +20,7 @@ const HomeSvg = () => {
     return () => {
       instance.destroy()
     }
-  }, [])
+  }, [lottieContainer])
   
   return (
     <div className='svg-home' ref={lottieContainer}></div>

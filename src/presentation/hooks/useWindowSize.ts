@@ -3,8 +3,8 @@ import { useState } from "react";
 
 export default function useWindowSize(mobileThreshold = 800){
     const [windowSize, setWindowSize] = useState({
-        width: undefined,
-        height: undefined, 
+        width: window.innerWidth,
+        height: window.innerHeight, 
     })
 
     const isMobile = windowSize.width <= mobileThreshold

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import '../styles/Home.css'
 import { Presentation } from './Presentation'
 import HomeSvg from './HomeSvg'

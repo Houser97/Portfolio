@@ -1,4 +1,19 @@
-export const icons = [
+export interface IconType {
+    classIcon: string;
+    text: string;
+    isDevicon: boolean;
+}
+
+export interface ProjectType {
+    title: string;
+    image: string;
+    description: string;
+    technologies: string[];
+    github: string;
+    preview: string;
+}
+
+export const icons: IconType[] = [
     {
         classIcon: 'devicon-html5-plain',
         text: 'HTML',
@@ -111,7 +126,7 @@ export const icons = [
     },
 ]
 
-export const projects = [
+export const projects: ProjectType[] = [
     {
         title: 'In Touch IO - Messaging App',
         image: 'https://res.cloudinary.com/dluwqcce9/image/upload/v1734284604/Portfolio/InTouchIo_i7f47x.jpg',

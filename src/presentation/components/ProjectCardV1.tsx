@@ -1,38 +1,37 @@
-import React, { useEffect, useState } from 'react'
-import { icons } from '../constants'
 import TechCard from './TechCard'
-import '../styles/ProjectCardV2.css'
+import '../styles/ProjectCardV1.css'
+import { useTechIcons } from '../hooks/useTechIcons'
 
+interface Props {
+    image: string;
+    description: string;
+    technologies: string[];
+    title: string;
+    preview: string;
+    github: string;
+}
 
-const ProjectCardV2 = ({image, description, technologies, title, preview, github}) => {
+const ProjectCardV1 = ({image, description, technologies, title, preview, github}: Props) => {
 
-    const [iconsProject, setIconsProject] = useState([])
-    
-    useEffect(() => {
-        let iconsProject = []
-        icons.filter(icon => {
-            if(technologies.includes(icon.text)){
-                iconsProject.push(icon)
-            }
-        })
-        setIconsProject(iconsProject);
-    }, [])
+    const {iconsProject} = useTechIcons(technologies);
 
   return (
-    <div className='app__project-subcontainer-reversed'>
+    <div className='app__project-subcontainer'>
+        <div className='project-img-container project-img-container-commun'>
+            <span className='project-card-decoration'></span>
+            <img alt='project_overview' className='project-img' src={image}></img>
+        </div>
         <div className='project-description'>
             <div className='card-title'>{title}</div> 
             <div className='description-part'>{description}</div>
             <div className='tecnologies-project'>
                 <h3>Technologies:</h3>
                 <div className='tecnologies-list'>
-                    {/*technologies.join(', ')*/
-                        iconsProject.map((icon, i) => {
-                            return(
-                                <TechCard key={`icon-text-${i}`} {...icon} />
-                            )
-                        })
-                    }
+                    {iconsProject.map((icon, i) => {
+                        return(
+                            <TechCard key={`icon-text-${i}`} {...icon} />
+                        )
+                    })}
                 </div>
             </div>
             <div className='preview-code-links'>
@@ -66,12 +65,8 @@ const ProjectCardV2 = ({image, description, technologies, title, preview, github
                 </a>
             </div>
         </div>
-        <div className='project-img-container-reversed project-img-container-commun'>
-            <span className='project-card-decoration-reversed'></span>
-            <img alt='project_overview' className='project-img' src={image}></img>
-        </div>
     </div>
   )
 }
 
-export default ProjectCardV2
+export default ProjectCardV1
