@@ -54,7 +54,7 @@
 }
 
 .about-text{
-    font-size: clamp(1.5rem, 1.4583rem + 0.2222vw, 1.875rem);
+    font-size: clamp(1.25rem, 1.1905rem + 0.2976vw, 1.5625rem);
     width: 100%;
     height: 100%;
     display: flex;

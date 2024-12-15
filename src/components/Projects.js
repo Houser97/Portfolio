@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/Projects.css'
 import ProjectCard from './ProjectCard'
 import { projects } from '../constants'
 import SectionTitle from './SectionTitle'
+import gsap from 'gsap'
+import useWindowSize from '../hooks/useWindowSize'
 
 const Projects = () => {
+
+  const { isMobile } = useWindowSize(700);
+
+  useEffect(()=> {
+    gsap.set('.projects-note', {opacity: 0, y:50});
+    gsap.to('.projects-note', {
+      duration: 1,
+      opacity: 1,
+      y: 0,
+      scrollTrigger: {
+        trigger: '.projects-note',
+        scroller: 'body',
+        start: 'top 80%',
+      }
+    })
+  }, [isMobile]);
 
   return (
     <div className='app__projects'>

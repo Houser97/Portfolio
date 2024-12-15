@@ -1,12 +1,14 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
-export default function useWindowSize(){
+export default function useWindowSize(mobileThreshold = 800){
     const [windowSize, setWindowSize] = useState({
         width: undefined,
         height: undefined, 
     })
 
+    const isMobile = windowSize.width <= mobileThreshold
+    
     useEffect(() => {
       const handleResize = () => {
         setWindowSize({
@@ -23,5 +25,8 @@ export default function useWindowSize(){
       }
     }, [])
 
-    return windowSize;
+    return {
+      windowSize,
+      isMobile
+    };
 }

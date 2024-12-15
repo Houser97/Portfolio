@@ -7,23 +7,13 @@ import { About } from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import { useEffect, useState } from 'react';
-import useWindowSize from './hooks/windowSizeHook'
+import useWindowSize from './hooks/useWindowSize'
 
 gsap.registerPlugin(ScrollTrigger)
 
 function App() {
 
-  const windowSize = useWindowSize();
-
-  const [isMobile, setIsMobile] = useState(windowSize.width <= 800)
-
-  useEffect(() => {
-    if(windowSize.width <= 800){
-      setIsMobile(true)
-    } else {
-      setIsMobile(false)
-    }
-  }, [windowSize])
+  const { isMobile } = useWindowSize();
 
   useEffect(() => {
     const decorationYValues = {
@@ -44,9 +34,9 @@ function App() {
       gsap.to(project, {
         scrollTrigger: {
           trigger: project,
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: 0.2,
+          start: 'top 100%',
+          end: '10%',
+          scrub: 1,
         },
         y: cardYValues.yEnd
       })
@@ -62,7 +52,7 @@ function App() {
           trigger: decoration,
           start: 'top bottom',
           end: 'bottom top',
-          scrub: 0.2,
+          scrub: 1,
         },
         y: decorationYValues.yEnd,
       })
@@ -78,7 +68,7 @@ function App() {
           trigger: decoration,
           start: 'top bottom',
           end: 'bottom top',
-          scrub: 0.2
+          scrub: 1
         },
         y: decorationYValues.yEnd,
       })
@@ -94,7 +84,7 @@ function App() {
           trigger: decoration,
           start: '-200% bottom',
           end: '-300px top',
-          scrub: 0.2,
+          scrub: 1,
         },
         y: '-100px',
       })
@@ -110,7 +100,7 @@ function App() {
           trigger: project,
           start: 'top bottom',
           end: 'bottom 15%',
-          scrub: 0.2,
+          scrub: 1,
         },
         x: '-50%'
       })
@@ -126,7 +116,7 @@ function App() {
             trigger: project,
             start: '-70px bottom',
             end: '-70px 15%',
-            scrub: 0.2,
+            scrub: 1,
             },
             x: '50%'
         })

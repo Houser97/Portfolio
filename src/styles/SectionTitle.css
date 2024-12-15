@@ -18,7 +18,7 @@
     width: 100vw;
     height: 2px;
     background: linear-gradient(90deg,#ffe62e 25%,#0f9046);
-    background: white;
+    background: white !important;
 }
 
 .color-line-left{
