@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
 
 .app__footer{
-    width: 100%;
+    width: 90%;
     background-color: #161b22;
     display: flex;
     justify-content: space-between;
