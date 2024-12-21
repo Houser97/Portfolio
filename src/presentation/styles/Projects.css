@@ -37,6 +37,14 @@
     }        
 }
 
+@media (max-width: 800px) {
+    .projects-note,
+    .app__projects-subcontainer{
+        width: 90% !important;
+    }        
+
+}
+
 
 @media (max-width: 1200px) {
     .app__projects-subcontainer{
