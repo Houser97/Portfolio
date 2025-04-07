@@ -14,11 +14,11 @@ export interface ProjectType {
 }
 
 export const icons: IconType[] = [
-    {
-        classIcon: 'devicon-html5-plain',
-        text: 'HTML',
-        isDevicon: true
-    },
+    // {
+    //     classIcon: 'devicon-html5-plain',
+    //     text: 'HTML',
+    //     isDevicon: true
+    // },
     {
         classIcon: 'devicon-css3-plain',
         text: 'CSS',
@@ -29,11 +29,11 @@ export const icons: IconType[] = [
         text: 'JavaScript',
         isDevicon: true
     },
-    {
-        classIcon: 'devicon-git-plain',
-        text: 'GIT',
-        isDevicon: true
-    },
+    // {
+    //     classIcon: 'devicon-git-plain',
+    //     text: 'GIT',
+    //     isDevicon: true
+    // },
     {
         classIcon: 'devicon-react-original',
         text: 'React',
@@ -44,9 +44,14 @@ export const icons: IconType[] = [
         text: 'Node.js',
         isDevicon: true
     },
+    // {
+    //     classIcon: 'devicon-express-original express',
+    //     text: 'Express.js',
+    //     isDevicon: true
+    // },
     {
-        classIcon: 'devicon-express-original express',
-        text: 'Express.js',
+        classIcon: 'devicon-nestjs-plain',
+        text: 'NestJS',
         isDevicon: true
     },
     {
@@ -54,11 +59,11 @@ export const icons: IconType[] = [
         text: 'Redux',
         isDevicon: true
     },
-    {
-        classIcon: 'devicon-flutter-plain',
-        text: 'Flutter',
-        isDevicon: true
-    },
+    // {
+    //     classIcon: 'devicon-flutter-plain',
+    //     text: 'Flutter',
+    //     isDevicon: true
+    // },
     {
         classIcon: 'devicon-socketio-original',
         text: 'Socket IO',
@@ -89,26 +94,36 @@ export const icons: IconType[] = [
         text: 'Jest',
         isDevicon: true
     },
-    {
-        classIcon: 'devicon-webpack-plain',
-        text: 'Webpack',
-        isDevicon: true
-    },
+    // {
+    //     classIcon: 'devicon-webpack-plain',
+    //     text: 'Webpack',
+    //     isDevicon: true
+    // },
     {
         classIcon: 'devicon-docker-plain',
         text: 'Docker',
         isDevicon: true
     },
-    // {
-    //     classIcon: 'devicon-csharp-plain',
-    //     text: 'C#',
-    //     isDevicon: true
-    // },
+    {
+        classIcon: 'devicon-csharp-plain',
+        text: 'C#',
+        isDevicon: true
+    },
     // {
     //     classIcon: 'devicon-dotnetcore-plain',
     //     text: 'ASP.NET Core',
     //     isDevicon: true
     // },
+    {
+        classIcon: 'devicon-java-plain',
+        text: 'Java',
+        isDevicon: true
+    },
+    {
+        classIcon: 'devicon-googlecloud-plain',
+        text: 'Google Cloud',
+        isDevicon: true
+    },
     {
         classIcon: 'devicon-python-plain',
         text: 'Python',
@@ -124,6 +139,11 @@ export const icons: IconType[] = [
         text: 'JWT',
         isDevicon: false
     },
+    {
+        classIcon: 'devicon-kubernetes-plain',
+        text: 'Kubernetes',
+        isDevicon: true
+    }
 ]
 
 export const projects: ProjectType[] = [
