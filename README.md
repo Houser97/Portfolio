@@ -20,6 +20,40 @@ Next is the About section, in which I talk about myself and show the technologie
 
 Then, the projects section is presented, where each project has a description of its functionality as well as the technologies used for its creation. Finally, there is the Footer to present my contact.
 
+## Deployment to Github Pages (Working)
+1. Set base in __vite.config.ts__
+```ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineConfig({
+  base: '/Portfolio/',
+  plugins: [react()],
+})
+
+```
+
+2. Set homepage in __package.json__
+```json
+"homepage": "https://houser97.github.io/Portfolio/",
+```
+
+3. Install gh-pages
+```bash
+npm i gh-pages
+```
+
+4. Create scripts in package.json
+```json
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+```
+
+5. Run deploy command.
+```bash
+npm run deploy
+```
 ## Deployment to Github Pages
 - [Official Documentation](https://vite.dev/guide/static-deploy)
 
