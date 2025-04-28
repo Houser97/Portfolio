@@ -109,11 +109,11 @@ export const icons: IconType[] = [
         text: 'C#',
         isDevicon: true
     },
-    // {
-    //     classIcon: 'devicon-dotnetcore-plain',
-    //     text: 'ASP.NET Core',
-    //     isDevicon: true
-    // },
+    {
+        classIcon: 'devicon-dotnetcore-plain',
+        text: 'ASP.NET Core',
+        isDevicon: true
+    },
     {
         classIcon: 'devicon-java-plain',
         text: 'Java',
