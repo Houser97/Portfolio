@@ -42,7 +42,7 @@
 }
 
 * {
-  font-family: 'cooper' !important;
+  font-family: Poppins;
   font-weight: 100;
   background: #232323 !important;
 }
@@ -58,5 +58,11 @@
 @font-face {
   font-family: cooper;
   src: url('./assets/Fonts/cooperli.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/Fonts/Poppins-Regular.ttf');
   font-weight: 700;
 }
