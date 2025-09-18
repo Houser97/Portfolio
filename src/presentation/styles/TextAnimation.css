@@ -34,7 +34,7 @@
 .textAnimation__container .textAnimation__box .textAnimation__title h1 {
   font-family: 'Poppins';
   color: #fff;
-  font-size: clamp(2.5rem, 2.381rem + 0.5952vw, 3.125rem);
+  font-size: clamp(1.375rem, 1.0278rem + 1.1111vw, 2rem);
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;

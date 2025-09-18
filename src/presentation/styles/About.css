@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 .app__about{
     display: flex;
     flex-flow: column;
@@ -44,7 +42,7 @@
 
 .technologies-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-columns: repeat(auto-fit, 85px);
     grid-template-rows: repeat(auto-fit, 1fr);
     width: 100%;
     gap: 10px;
@@ -54,7 +52,7 @@
 }
 
 .about-text{
-    font-size: clamp(1.25rem, 1.1905rem + 0.2976vw, 1.5625rem);
+    font-size: clamp(1rem, 0.8611rem + 0.4444vw, 1.05rem);
     width: 100%;
     height: 100%;
     display: flex;
