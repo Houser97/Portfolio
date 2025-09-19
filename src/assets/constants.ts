@@ -166,8 +166,8 @@ export const projects: ProjectType[] = [
         \u2022 Comments are interactive, allowing users to like or dislike them.\t
         \u2022 Items can be added to the user's cart, displaying the total amount in the cart and the price to be paid.\t
         
-        User registration is facilitated through the use of Node.js and MongoDB as the server and database technologies. Additionally, Redux Toolkit has been implemented for efficient global state management, while Tailwind CSS has been employed for styling the application.`,
-        technologies: ['ASP.NET Core', 'React', 'Docker','Tailwind CSS', 'Redux', 'MongoDB'],
+        User registration is facilitated through the use of ASP.NET Core and MongoDB as the server and database technologies. Additionally, Redux Toolkit has been implemented for efficient global state management, while Tailwind CSS has been employed for styling the application.`,
+        technologies: ['ASP.NET Core', 'React', 'Docker','Tailwind CSS', 'Redux', 'MongoDB', 'TypeScript', 'JWT'],
         github: 'https://github.com/Houser97/Shopping-Cart',
         preview: 'https://shopping-cart-a2-2.onrender.com',
     },
