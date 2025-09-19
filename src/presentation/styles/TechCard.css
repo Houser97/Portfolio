@@ -4,17 +4,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    --tech-size: 55px;
 }
 
 i{
-    font-size: 70px;
+    font-size: var(--tech-size);
     margin-bottom: 10px;
     justify-self: center;
 }
 
 .img-tech{
-    height: 75px;
-    width: 60px;
+    width: var(--tech-size);
     margin-bottom: 10px;
 }
 
