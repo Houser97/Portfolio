@@ -33,7 +33,7 @@
     color: white;
     padding: 30px 40px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
     border: 2px solid white;
     white-space: pre-line; /*Ayuda a que secuencias de escape como  \t o \n sea reconocida en strings*/
@@ -63,13 +63,13 @@
 }
 
 .card-title{
-    font-size: 24px;
+    font-size: 20px;
     width: 100%;
     padding-bottom: 5px;
     margin-bottom: 5px;
     font-weight: 600;
     text-align: center;
-    font-family: Lemon;
+    font-family: Poppins;
 }
 
 /*Sección de tecnologias*/
@@ -83,12 +83,33 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
+    justify-content: center;
+
+    --tech-size-card: 40px;
 }
+
+    
+
+@media (min-width: 750px) {
+    .tecnologies-list .img-tech{
+        width: var(--tech-size-card);
+        height: auto !important;
+    }
+
+    .tecnologies-list i {
+        font-size: var(--tech-size-card);
+    }
+
+    .tecnologies-list .app__TechCard-text {
+        font-size: 13px;
+    }
+}
+
 
 /*/*Sección de Github y Preview*/
 
 .preview-code-links-sm{
-    display: none;
+    display: flex;
     flex-flow: row;
     justify-content: flex-end;
     width: max-content;
@@ -102,7 +123,7 @@
 }
 
 .preview-code-links{
-    display: flex;
+    display: none;
     flex-flow: row;
     justify-content: flex-end;
     width: max-content;
