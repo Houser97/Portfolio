@@ -32,6 +32,10 @@ header a {
     font-size: 3.2rem;
 }
 
+.app_header-logo sup{
+    font-family: cooper !important;
+}
+
 .app__header-btns{
     font-family: Lemon, serif;
     font-size: 1.1rem;
