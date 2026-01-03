@@ -47,7 +47,7 @@ export const animateLines = (
     scrollTrigger: {
       trigger: element,
       start,
-      once: true, // 👈 clave
+      once: true,
     },
   });
 };
