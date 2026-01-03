@@ -94,7 +94,7 @@ export const Outro = () => {
           "Details,Team Player,Performance,Scalability",
           "GSAP,Systems,Self Learning,Scroll,Swimming,Mindset,Components",
           "Git,APIs,Testing,Flow,Eager,Discipline,Design,Debugging,Planning,Responsive,Keyframes,Animations",
-          "SCADA,Traveler,Empathy,Intuition",
+          "SCADA,Traveller,Empathy,Intuition",
         ].map((content, index) => (
           <div
             key={index}
