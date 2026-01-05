@@ -1,133 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap");
+
 :root {
-  font-family: Poppins, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-
-  --offset-y: 80px; /*Se usa para dar offset a spans en About y Project para navegación*/
-
-  --border-width: 20px;
-  --border-color: #edc822;
-  --border-width-medium: 16px;
-  --border-width-small: 13px;
-
-  --home-color: white;
-  --background: #0d1117;
-
-  --spans-top-bottom-offset: 9px; /*Se usa para separar líneas de ToggleButton*/
-  --padding-main-containers: 0px 40px;
-  --padding-main-containers-medium: 0px 20px;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --base-100: #f9f4eb;
+  --base-200: #efece5;
+  --base-300: #0a0a0a;
+  --base-secondary-dark: #686560;
+  --base-secondary-fade: rgba(249, 244, 235, 0.15);
+  --accent-1: #b1c1ef;
+  --accent-2: #f2acac;
+  --accent-3: #ffdd94;
 }
 
-
-#root {
-  width: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  overflow-x: hidden !important;
+  font-family: "Host Grotesk";
+  background-color: var(--base-100);
+  color: var(--base-300);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: "Barlow Condensed";
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -0.02rem;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 12rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Host Grotesk";
+  font-size: 1.1rem;
+}
+
+p.md {
+  font-size: 1.3rem;
+}
+
+p.lg {
+  font-size: 1.5rem;
+}
+
+p.mono {
+  text-transform: uppercase;
+  font-family: "DM Mono";
+  font-size: 0.85rem;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+p.mono span,
+a span {
+  position: relative;
+  top: -0.1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 2.75rem;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.symbols-container {
+  display: flex;
+  gap: 0.5rem;
+  height: 1.125rem;
+  z-index: 1;
+}
+
+.symbols-container .symbol {
+  width: 1.125rem;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 6rem;
   }
-  a:hover {
-    color: #747bff;
+  h2 {
+    font-size: 5rem;
   }
-  button {
-    background-color: #f9f9f9;
+
+  h3 {
+    font-size: 3rem;
   }
-}
 
-
-
-
-html{
-  scroll-behavior: smooth;
-  font-size: 16px;
-  background-color: var(--background);
-  -webkit-tap-highlight-color:transparent;
-}
-
-
-
-body::-webkit-scrollbar {
-  width: 4px;          
-}
-
-body::-webkit-scrollbar-track {
-  background: #21272e;     
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: white;   
-  border-radius: 20px;    
-}
-
-
-@media (max-width: 970px) {
-    html{
-      font-size: 14px;
-    }
-}
-
-@media (max-width: 600px) {
-  html{
-    font-size: 12px;
+  p {
+    font-size: 1rem;
   }
-}
 
-@media (max-width: 520px) {
-  html{
-    font-size: 7px;
+  p.md {
+    font-size: 1.125rem;
+  }
+
+  p.lg {
+    font-size: 1.25rem;
+  }
+
+  p.mono {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    padding: 2rem;
   }
 }
