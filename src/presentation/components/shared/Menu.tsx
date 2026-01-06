@@ -1,10 +1,13 @@
-// Menu.tsx
-import "./Menu.css";
 import { useRef, useState } from "react";
+
+import { Link, useNavigate } from "react-router-dom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import SplitText from "gsap/SplitText";
-import { Link, useNavigate } from "react-router-dom";
+
+import { menuRoutes } from "@/data/navigation/routes";
+
+import "./Menu.css";
 
 gsap.registerPlugin(SplitText);
 
@@ -319,26 +322,18 @@ export const Menu = () => {
       <div className="menu-overlay" ref={overlayRef}>
         <nav className="menu-nav" aria-label="Main navigation">
           <ul>
-            {["Home", "Selected Work", "Experiments"].map((label) => (
-              <li key={label}>
+            {menuRoutes.map(({name, route}) => (
+              <li key={name}>
                 <Link
-                  to={`/Portfolio/${
-                    label === "Index"
-                      ? ""
-                      : label.toLowerCase().replace(/\s+/g, "-")
-                  }`}
+                  to={route}
                   onClick={(e) =>
                     handleNavClick(
                       e,
-                      `/Portfolio/${
-                        label === "Index"
-                          ? ""
-                          : label.toLowerCase().replace(/\s+/g, "-")
-                      }`
+                      route
                     )
                   }
                 >
-                  {label}
+                  {name}
                 </Link>
               </li>
             ))}
