@@ -8,3 +8,6 @@ export const spotlightProjects = [
   "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754566/Portfolio/CocaHistory_wasqlj.webp",
   "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/Autoheat_rho9pa.webp",
 ];
+
+export const HeroImage =
+  "https://res.cloudinary.com/dluwqcce9/image/upload/v1767842900/Portfolio/Image_ika6sr.jpg";
