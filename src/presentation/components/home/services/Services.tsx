@@ -17,6 +17,22 @@ export const Services = () => {
 
   useGSAP(
     () => {
+      const isMobile = window.innerWidth <= 1000;
+
+      if (isMobile) {
+        cardsRef.current.forEach((card) => {
+          if (card) {
+            gsap.set(card, { clearProps: "all" });
+          }
+        });
+        innerCardsRef.current.forEach((inner) => {
+          if (inner) {
+            gsap.set(inner, { clearProps: "all" });
+          }
+        });
+        return;
+      }
+
       const ctx = gsap.context(() => {
         const vh = window.innerHeight;
 
@@ -92,9 +108,7 @@ export const Services = () => {
 
               // OPACITY
               const opacity =
-                cardProgress < 0.2
-                  ? smoothStep(cardProgress / 0.2)
-                  : 1;
+                cardProgress < 0.2 ? smoothStep(cardProgress / 0.2) : 1;
 
               // X / ROTATE / FLIP
               let x = index === 0 ? "100%" : index === 2 ? "-100%" : "0%";
@@ -181,7 +195,6 @@ export const Services = () => {
                   className="flip-card-inner"
                   ref={(el) => (innerCardsRef.current[index] = el)}
                 >
-                  {/* FRONT */}
                   <div className="flip-card-front">
                     <div className="card-title">
                       <p className="mono">{card.title}</p>
@@ -193,7 +206,6 @@ export const Services = () => {
                     </div>
                   </div>
 
-                  {/* BACK */}
                   <div className="flip-card-back">
                     <div className="card-title">
                       <p className="mono">{card.title}</p>
