@@ -38,10 +38,11 @@ export const projects: Project[] = [
     ],
 
     images: [
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/G3TTWEC74BHABGSXNPCHIKXI6I.jpg",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635488/Portfolio/lodos_qrvspc.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767634859/Portfolio/lodos-dark_kfwv9p.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635487/Portfolio/daf_bws4dp.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635428/Portfolio/mod_vyi54r.webp",
     ],
 
     review: {
@@ -108,9 +109,13 @@ export const projects: Project[] = [
     ],
 
     images: [
-      "https://images.unsplash.com/photo-1581091012184-5c8b021a93c5?w=800",
-      "https://images.unsplash.com/photo-1581091215367-59ab6b43c9e7?w=800",
-      "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=800",
+      "https://www.gerdaucorsa.com.mx/sites/mx_gerdau/files/DJI_0167%20%281%29-min.jpg",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-dark-no-header_bq148l.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Dashboard-dark-no-header_oi9xrr.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-no-header_i2f1ts.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-dark-img-no-header_bmnqiv.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924667/Portfolio/PLC-dashboard-no-header_wl11kx.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924667/Portfolio/Report-management-dark-no-header_z0vn0o.webp",
     ],
 
     review: {
@@ -177,9 +182,13 @@ export const projects: Project[] = [
     ],
 
     images: [
-      "https://images.unsplash.com/photo-1581093588401-22d6d4d8c44f?w=800",
-      "https://images.unsplash.com/photo-1581091012184-7c67b6c4d63c?w=800",
-      "https://images.unsplash.com/photo-1581092334425-45b6f1c8b98b?w=800",
+      "https://useast2prodbrandsites.blob.core.windows.net/sf-assets/images/default-source/page-headers/home-page-hero-product-graphic.webp?sfvrsn=438aa962_8",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/AndonHome_corsqu.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCards2_mj22er.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCards_i63kfu.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCover_e9t6yt.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCharts_tkdm3p.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonReport_eqibhz.webp",
     ],
 
     review: {
