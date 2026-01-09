@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
 import "./PageTransition.css";
 
-export const PageTransition = (Component: React.ComponentType) => {
-  return () => {
+export const PageTransition = <P extends object>(
+  Component: React.ComponentType<P>
+) => {
+  return (props: P) => {
     return (
       <>
-        <Component />
+        <Component {...props} />
+
         <motion.div
           className="slide-in"
           initial={{ scaleY: 0 }}
@@ -13,6 +16,7 @@ export const PageTransition = (Component: React.ComponentType) => {
           exit={{ scaleY: 1 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         />
+
         <motion.div
           className="slide-out"
           initial={{ scaleY: 1 }}
