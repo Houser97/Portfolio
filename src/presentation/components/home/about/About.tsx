@@ -1,9 +1,12 @@
-import { useGSAP } from "@gsap/react";
-import { SplitText } from "gsap/SplitText";
-import { animateLines } from "../../../animations/animateLines";
 import { useRef } from "react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+
+import { animateLines } from "@/presentation/animations/animateLines";
+
+import "./About.css";
 
 gsap.registerPlugin(SplitText, ScrollTrigger);
 

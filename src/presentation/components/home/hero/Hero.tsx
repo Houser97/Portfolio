@@ -1,12 +1,13 @@
-import "../Home.css";
 import { useRef } from "react";
+
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
-import { useGSAP } from "@gsap/react";
-import { animateWords } from "../../../animations/animateWords";
-import { animateLines } from "../../../animations/animateLines";
-import { cards } from "../../../../data/cards";
+
+import { animateWords } from "@/presentation/animations/animateWords";
+import { animateLines } from "@/presentation/animations/animateLines";
+import { cards } from "@/data/cards";
 
 export const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);

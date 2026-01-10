@@ -1,13 +1,16 @@
-import "./Slider.css";
 
 import { useRef } from "react";
-import { Link } from "react-router-dom";
-import type { SlideData } from "../../../../data/slides";
 
+import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/SplitText";
-import { animateLinesNoScroll } from "../../../animations/animateLinesNoScroll";
+
+import { animateLinesNoScroll } from "@/presentation/animations/animateLinesNoScroll";
+import { SlideData } from "@/data/projects/types";
+
+import "./Slider.css";
+
 
 type SlideProps = {
   data: SlideData;
