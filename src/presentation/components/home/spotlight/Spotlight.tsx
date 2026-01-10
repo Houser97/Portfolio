@@ -221,7 +221,7 @@ useGSAP(
 
         <div className="home-spotlight-images-row">
           <div className="home-spotlight-image image-holder">
-            <img src={spotlightProjects[7]} alt="" />
+            <img src={spotlightProjects[2]} alt="" />
           </div>
         </div>
 
