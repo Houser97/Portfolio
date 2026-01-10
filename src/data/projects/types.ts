@@ -29,6 +29,7 @@ export interface Project {
 }
 
 export interface SlideData {
+  id: string;
   slideImg: string;
   slideTitle: string;
   slideDescription: string;
