@@ -1,0 +1,1 @@
+export const PAGE_ANIMATION_DURATION_IN_SECONDS = 1;
