@@ -5,7 +5,7 @@ import { SplitText } from "gsap/SplitText";
 import { AnimatePresence } from "framer-motion";
 
 import { useLenisScroll } from "./presentation/hooks/useLenisScroll";
-import { Menu } from "./presentation/components/shared/Menu";
+import { Menu } from "./presentation/components/shared/Menu/Menu";
 import SliderCarouselTransition from "./presentation/components/project/slider/Slider";
 import HomeTransition from "./presentation/components/home/Home";
 import ProjectTransition from "./presentation/components/project/project/Project";
