@@ -34,7 +34,8 @@ export const cards: Card[] = [
     items: [
         "Docker",
         "Git",
-        "Unit Testing (Jest)",
+        "Unit Testing (Jest, xUnit)",
+        "Redux Toolkit, Zustand",
         "Ignition"
     ],
   },
