@@ -39,10 +39,13 @@ export const projects: Project[] = [
 
     images: [
       "https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/G3TTWEC74BHABGSXNPCHIKXI6I.jpg",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635488/Portfolio/lodos_qrvspc.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767634859/Portfolio/lodos-dark_kfwv9p.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635487/Portfolio/daf_bws4dp.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767635428/Portfolio/mod_vyi54r.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-acc-2_ag0pnw.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-daf-2_gzhbxg.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-graf-2_jpgxwf.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-lodos-2_yxuy7r.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-mod-2_usql11.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Coca-mod1-2_oeymhe.webp",
     ],
 
     review: {
@@ -184,11 +187,12 @@ export const projects: Project[] = [
     images: [
       "https://useast2prodbrandsites.blob.core.windows.net/sf-assets/images/default-source/page-headers/home-page-hero-product-graphic.webp?sfvrsn=438aa962_8",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/AndonHome_corsqu.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCards2_mj22er.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCards_i63kfu.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/OEE-Dashboard_sfttqx.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Andon-2-table_zdc6op.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCover_e9t6yt.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonCharts_tkdm3p.webp",
-      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonReport_eqibhz.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020388/Portfolio/Andon-2-popup-registry_xzrgxi.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1768020389/Portfolio/Andon-2-report_sxq4we.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767754562/Portfolio/AndonReport_eqibhz.webp"
     ],
 
     review: {
