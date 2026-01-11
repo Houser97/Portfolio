@@ -4,13 +4,17 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import { AnimatePresence } from "framer-motion";
 
-import { useLenisScroll } from "./presentation/hooks/useLenisScroll";
-import { Menu } from "./presentation/components/shared/Menu/Menu";
-import SliderCarouselTransition from "./presentation/components/project/slider/Slider";
-import HomeTransition from "./presentation/components/home/Home";
-import ProjectTransition from "./presentation/components/project/project/Project";
-import { routes } from "./data/navigation/routes";
+import { useLenisScroll } from "./shared/hooks/useLenisScroll";
+import { Menu } from "./app/layout/Menu/Menu";
+import SliderCarouselTransition from "./features/slider/Slider";
+
+
+import { routes } from "./app/navigation/routes";
 import { experimentSlides, slides } from "./data/projects/slides";
+
+import HomeTransition from "./features/home/Home";
+import ProjectTransition from "./features/project/Project";
+import ExperimentTransition from "./features/experiment/Experiment";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -33,6 +37,7 @@ function App() {
             element={<SliderCarouselTransition slides={experimentSlides} />}
           />
           <Route path={routes.project.route} element={<ProjectTransition />} />
+          <Route path={routes.experiment.route} element={<ExperimentTransition />} />
         </Routes>
       </AnimatePresence>
     </>

@@ -106,6 +106,12 @@ a span {
   width: 1.125rem;
 }
 
+@media (max-width: 1200px) { 
+  h3 {
+    font-size: 4rem;
+  }
+} 
+
 @media (max-width: 1000px) {
   h1 {
     font-size: 6rem;

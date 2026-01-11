@@ -26,7 +26,12 @@
 
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@app/*": ["app/*"],
+      "@features/*": ["features/*"],
+      "@shared/*": ["shared/*"],
+      "@data/*": ["data/*"],
+      "@constants/*": ["constants/*"]
     }
   },
   "include": ["src", "custom.d.ts", "**/.*css"]
