@@ -107,14 +107,15 @@ export const projects: Project[] = [
       "Significantly improved transparency and understanding of billet quality metrics for operators and engineers.",
       "Served as the foundation for a standardized billet rhomboidity detection solution.",
       "Successfully adapted and deployed the application at Gerdau Tultitlán with minimal effort.",
-      "The solution was presented during an industry event, where its design, usability, and technical approach attracted the attention of Ternium",
-      "This exposure led to direct commercial and technical discussions with Ternium to evaluate the feasibility of implementing the solution in their production environment",
+      "The solution was presented during an industry event, where its design, usability, and technical approach attracted the attention of Ternium.",
+      "This exposure led to direct commercial and technical discussions with Ternium to evaluate the feasibility of implementing the solution in their production environment.",
     ],
 
     images: [
       "https://www.gerdaucorsa.com.mx/sites/mx_gerdau/files/DJI_0167%20%281%29-min.jpg",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-dark-no-header_bq148l.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Dashboard-dark-no-header_oi9xrr.webp",
+      "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Line-dark-no-header_aluph9.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-no-header_i2f1ts.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924666/Portfolio/Gerdau-report-dark-img-no-header_bmnqiv.webp",
       "https://res.cloudinary.com/dluwqcce9/image/upload/v1767924667/Portfolio/PLC-dashboard-no-header_wl11kx.webp",
@@ -153,7 +154,7 @@ export const projects: Project[] = [
     context: {
       company: "Clarios",
       location: "Manufacturing Plant",
-      year: "2024",
+      year: "2025",
       role: "Frontend & Industrial Application Developer",
       scope:
         "Design and development of a real-time Andon system with automated escalation, notifications, analytics, and reporting",

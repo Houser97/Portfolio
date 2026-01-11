@@ -1,4 +1,4 @@
-import { routes } from "../navigation/routes";
+import { routes } from "../../app/navigation/routes";
 import { experiments } from "./experiments";
 import { projects } from "./projects";
 import { SlideData } from "./types";
@@ -18,5 +18,5 @@ export const experimentSlides: SlideData[] = experiments.map((project) => ({
   slideTitle: project.title,
   slideDescription: project.background[0],
   slideTags: project.tags,
-  slideUrl: routes.project.route.replace(":id", project.id),
+  slideUrl: routes.experiment.route.replace(":id", project.id),
 }));

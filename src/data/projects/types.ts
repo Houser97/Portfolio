@@ -28,6 +28,42 @@ export interface Project {
   tags: string[];
 }
 
+export interface Experiment {
+  id: string;
+
+  title: string;
+  subtitle?: string;
+
+  context: {
+    projectType: string;
+    category: string;
+    year: string;
+    role: string;
+    scope: string;
+  };
+
+  stack: string[];
+
+  background: string[];
+  results: string[];
+
+  images: string[];
+
+  technicalHighlights: {
+    title: string;
+    content: string[];
+  };
+
+  links?: {
+    github?: string;
+    live?: string;
+    documentation?: string;
+  };
+
+  tags: string[];
+}
+
+
 export interface SlideData {
   id: string;
   slideImg: string;
