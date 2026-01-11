@@ -20,6 +20,10 @@ export const routes: Record<string, Route> = {
     name: "Experiments",
     route: "/Portfolio/experiments",
   },
+  experiment: {
+    name: "Project",
+    route: "/Portfolio/experiment/:id",
+  },
 };
 
 export const menuRoutes = [
