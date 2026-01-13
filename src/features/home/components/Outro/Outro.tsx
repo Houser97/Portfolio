@@ -91,11 +91,11 @@ export const Outro = () => {
 
       <div className="outro-strips">
         {[
-          "Frontend,Backend,Mexico,CSS,Creative,Clean Code,Logic,TypeScript",
+          "Frontend,Backend,Remote LATAM,CSS,TypeScript,Clean Code,Logic",
           "Details,Team Player,Performance,Scalability",
-          "GSAP,Systems,Self Learning,Scroll,Swimming,Mindset,Components",
+          "GSAP,Systems,Component Architecture,Continuous Learning",
           "Git,APIs,Testing,Flow,Eager,Discipline,Design,Debugging,Planning,Responsive,Keyframes,Animations",
-          "SCADA,Traveller,Empathy,Intuition",
+          "SCADA,Empathy,Global Perspective,User-Centered Thinking",
         ].map((content, index) => (
           <div
             key={index}

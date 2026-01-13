@@ -148,7 +148,7 @@ export const Services = () => {
     <section className="home-services" ref={sectionRef}>
       <div className="container">
         <div className="home-services-header" ref={headerRef}>
-          <p className="md">Equipped and ready for coding battles</p>
+          <p className="md">Crafted using a modern, proven technology stack</p>
         </div>
       </div>
 
