@@ -6,23 +6,23 @@ interface Route {
 export const routes: Record<string, Route> = {
   home: {
     name: "Home",
-    route: "/Portfolio/",
+    route: "/",
   },
   selectedWork: {
     name: "Selected Work",
-    route: "/Portfolio/selected-work",
+    route: "/selected-work",
   },
   project: {
     name: "Project",
-    route: "/Portfolio/project/:id",
+    route: "/project/:id",
   },
   experiments: {
     name: "Experiments",
-    route: "/Portfolio/experiments",
+    route: "/experiments",
   },
   experiment: {
     name: "Project",
-    route: "/Portfolio/experiment/:id",
+    route: "/experiment/:id",
   },
 };
 
