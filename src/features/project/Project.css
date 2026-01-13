@@ -47,6 +47,8 @@
 
   & img {
     border-radius: 5px;
+    height: auto;
+    display: block;   
   }
 }
 
@@ -272,8 +274,16 @@
     flex-direction: column;
   }
 
-  .project-banner-img {
+  /* .project-banner-img {
     aspect-ratio: 4/5;
+  } */
+
+  .project-snapshot img  {
+    height: 30%;
+  }
+
+  .project-snapshots-wrapper {
+    width: max-content;
   }
 
   .project-overview .container .project-overview-col:nth-child(1),

@@ -143,4 +143,8 @@ a span {
   .container {
     padding: 2rem;
   }
+
+  .container:has(> img) {
+    height: auto;
+  }
 }
